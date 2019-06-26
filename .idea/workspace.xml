@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f324bb2-9248-4f19-a0f2-fe83b29ba600" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/qqconnect.log" beforeDir="false" afterPath="$PROJECT_DIR$/qqconnect.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qqconnect.log.1" beforeDir="false" afterPath="$PROJECT_DIR$/qqconnect.log.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ehr/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ehr/dao/CompanyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/CompanyDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/CompanyDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ehr/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ehr/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ehr/service/impl/CompanyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ehr/service/impl/CompanyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyAdd.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyAdd.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/organization/companyApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/organization/companyApi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ehr/controller/organization/company/CompanyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ehr/controller/organization/company/CompanyController.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/organization/companyApi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="184" column="107" selection-start-line="184" selection-start-column="107" selection-end-line="184" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/CompanyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="188" column="19" lean-forward="true" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/zy/likeSearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/CompanyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/impl/CompanyServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="53" column="101" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/CompanyDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="48" column="89" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/model/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-810">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/CompanyDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jquery</find>
+      <find>.theme-white .tpl-login-logo</find>
+      <find>.theme-black</find>
+      <find>img</find>
+      <find>tpl-login-logo</find>
+      <find>首页</find>
+      <find>.am-btn-toolbar</find>
+      <find>新增</find>
+      <find>assets/</find>
+      <find>新建</find>
+      <find>table</find>
+      <find>layui-layer-btn0</find>
+      <find>initList</find>
+      <find>page</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/dao/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/ok.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/model/TDept.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/service/impl/DeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/service/impl/DeptServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Dept_Test.java" />
+        <option value="$PROJECT_DIR$/src/test/java/User_Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/controller/RunApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/RunApp.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/login2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/assets/css/app.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/jquery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/table-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/form.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/save.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zy/controller/UserContrller.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/service/DeptService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/api/userApi.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/companyList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/controller/UserContrller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/RunApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/service/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/target/classes/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/controller/OrganizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/OrganizationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/model/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyUpdate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyAdd.jsp" />
+        <option value="$PROJECT_DIR$/src/test/java/likeSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/dao/CompanyDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/CompanyDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zy/likeSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/service/CompanyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/service/impl/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/CompanyController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/organization/companyApi.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyList.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MyMavenRepository" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring_boot_demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="spring-boot" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ehr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ehr" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ehr" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ehr" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ehr" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ehr" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pagination" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ehrDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ehrDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JSP" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_workdspace\ehrDemo\src\main\webapp" />
+      <recent name="E:\idea_workdspace\ehrDemo\src\main\webapp\WEB-INF\View\organization\company" />
+      <recent name="E:\idea_workdspace\spring_boot_demo\src\main\java\com\zy\dao" />
+      <recent name="E:\idea_workdspace\spring_boot_demo\src\main\webapp" />
+      <recent name="E:\idea_workdspace\spring_boot_demo\src\main\webapp\WEB-INF\View" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ehr.controller.organization.company" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workdspace\ehrDemo\src\main\webapp" />
+      <recent name="E:\idea_workdspace\ehrDemo\src\main\webapp\WEB-INF\View\organization\company" />
+      <recent name="E:\idea_workdspace\ehrDemo\target\classes" />
+      <recent name="E:\idea_workdspace\ehrDemo\src\main\webapp\WEB-INF" />
+      <recent name="E:\idea_workdspace\ehrDemo\src\main\webapp\WEB-INF\View\organization" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.likeSearchTest">
+    <configuration name="Dept_Test.testServiceGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Dept_Test" />
+      <option name="METHOD_NAME" value="testServiceGetSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dept_Test.testServiceSelectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Dept_Test" />
+      <option name="METHOD_NAME" value="testServiceSelectAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User_Test.testServerInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_boot_demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="User_Test" />
+      <option name="METHOD_NAME" value="testServerInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="likeSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zy" />
+      <option name="MAIN_CLASS_NAME" value="com.zy.likeSearchTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="likeSearchTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zy" />
+      <option name="MAIN_CLASS_NAME" value="com.zy.likeSearchTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MAVEN_REPOSITORY$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ehrDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ehr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ehr.RunApp" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_WORKING_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Dept_Test.testServiceGetSize" />
+      <item itemvalue="JUnit.Dept_Test.testServiceSelectAll" />
+      <item itemvalue="JUnit.User_Test.testServerInsert" />
+      <item itemvalue="Spring Boot.RunApp" />
+      <item itemvalue="JUnit.likeSearchTest.test" />
+      <item itemvalue="JUnit.likeSearchTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.likeSearchTest" />
+        <item itemvalue="JUnit.likeSearchTest.test" />
+        <item itemvalue="Spring Boot.RunApp" />
+        <item itemvalue="Spring Boot.RunApp" />
+        <item itemvalue="Spring Boot.RunApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f324bb2-9248-4f19-a0f2-fe83b29ba600" name="Default Changelist" comment="" />
+      <created>1560912235497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560912235497</updated>
+      <workItem from="1560912237074" duration="3677000" />
+      <workItem from="1560918578468" duration="153000" />
+      <workItem from="1560923917494" duration="4609000" />
+      <workItem from="1560944850662" duration="84000" />
+      <workItem from="1560992741966" duration="2777000" />
+      <workItem from="1560997882595" duration="562000" />
+      <workItem from="1560999992275" duration="2201000" />
+      <workItem from="1561002257228" duration="1310000" />
+      <workItem from="1561010486228" duration="7732000" />
+      <workItem from="1561027948144" duration="623000" />
+      <workItem from="1561078599407" duration="9744000" />
+      <workItem from="1561098161191" duration="12152000" />
+      <workItem from="1561111084532" duration="8073000" />
+      <workItem from="1561122461023" duration="52000" />
+      <workItem from="1561163495570" duration="1509000" />
+      <workItem from="1561165948556" duration="3231000" />
+      <workItem from="1561169488054" duration="15833000" />
+      <workItem from="1561270332205" duration="2710000" />
+      <workItem from="1561281144545" duration="3478000" />
+      <workItem from="1561298602690" duration="2214000" />
+      <workItem from="1561300928469" duration="617000" />
+      <workItem from="1561301575315" duration="23340000" />
+      <workItem from="1561358749020" duration="24622000" />
+      <workItem from="1561393932523" duration="430000" />
+      <workItem from="1561394416706" duration="3775000" />
+      <workItem from="1561423551584" duration="11091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 22m 34s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 26m 03s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 27m 18s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 29m 33s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 30m 09s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 32m 17s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 33m 40s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 34m 23s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest_test - 2019.06.25 at 11h 36m 49s.xml">
+      <configuration name="likeSearchTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="likeSearchTest - 2019.06.25 at 11h 37m 04s.xml">
+      <configuration name="likeSearchTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="146599000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89966553" weight="0.2008593" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.10033445" side_tool="true" weight="0.2008593" />
+      <window_info anchor="bottom" id="Problems" order="0" weight="0.32998884" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946293" weight="0.5930881" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CheckStyle" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053704" side_tool="true" weight="0.5730212" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32998884" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973147" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32975295" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32975295" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32975295" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/spring_boot_demo$User_Test_testQueryById.ic" NAME="User_Test.testQueryById Coverage Results" MODIFIED="1561110468458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/Modal/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/dao/UserDao2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zy/dao/mapper/UserDao2.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UserDao2.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/TDeptMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/UserDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/model/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/TDeptMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/target/classes/com/zy/service/impl/UserServiceImpl.class" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/User_Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/login2.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/impl/DeptServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/model/TDept.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/ok.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/admin.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/app.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/fail.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/UserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/update.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/DeptService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/save.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/login.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/UserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/api/userApi.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/impl/UserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/user/list.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/controller/LoginController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/controller/UserContrller.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/Dept_Test.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/jquery.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/qqconnectconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2079">
+          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/ehr/controller/OrganizationController.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/OrganizationController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pagination/amazeui-pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/RunApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyUpdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="96" column="38" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyAdd.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="91" column="54" lean-forward="true" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/mapper/CompanyDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/dao/CompanyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="48" column="89" lean-forward="true" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zy/likeSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/service/impl/CompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="53" column="101" selection-start-line="53" selection-start-column="68" selection-end-line="53" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ehr/controller/organization/company/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="188" column="19" lean-forward="true" selection-start-line="188" selection-start-column="19" selection-end-line="188" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/organization/companyApi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="184" column="107" selection-start-line="184" selection-start-column="107" selection-end-line="184" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/View/organization/company/companyList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="42" column="76" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>spring_boot_demo:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|ehrDemo</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
