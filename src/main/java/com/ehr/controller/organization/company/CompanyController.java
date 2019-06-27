@@ -18,7 +18,7 @@ import java.util.Map;
  * @date 23/06/2019 10:10 PM
  */
 @Controller
-@RequestMapping("/organization/company")
+@RequestMapping("/organization/company/")
 public class CompanyController {
     @Autowired
     CompanyService companyService;
@@ -26,7 +26,7 @@ public class CompanyController {
      * 返回公司列表页面
      * return string
      */
-    @RequestMapping("/")
+    @RequestMapping("")
     public String company(){
     	System.out.println("部门主页");
         return "/organization/company/companyList";

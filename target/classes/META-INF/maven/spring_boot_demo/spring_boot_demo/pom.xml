@@ -87,7 +87,13 @@
                     <overwrite>true</overwrite>
                     <verbose>true</verbose>
                 </configuration>
-                <!-- 这里删除了一个mysql的驱动 -->
+                <dependencies>
+                	<dependency>
+                		<groupId>mysql</groupId>
+                		<artifactId>mysql-connector-java</artifactId>
+                		<version>5.1.47</version>
+                	</dependency>
+                </dependencies>
             </plugin>
 
 

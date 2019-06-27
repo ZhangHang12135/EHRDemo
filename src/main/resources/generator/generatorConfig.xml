@@ -10,10 +10,10 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
 
-        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/spring_boot_demo?serverTimezone=GMT%2B8"
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/ym-ehr-oa?serverTimezone=GMT%2B8"
                         userId="root"
-                        password="123456">
+                        password="password">
         </jdbcConnection>
 
         <javaModelGenerator targetPackage="com.ehr.model" targetProject="src/main/java"/>
@@ -21,12 +21,9 @@
         <javaClientGenerator targetPackage="com.ehr.dao" targetProject="src/main/java"
                              type="XMLMAPPER"/>
        <!--自动生成的表 -->
-        <table tableName="t_user" domainObjectName="User"  mapperName="UserDao" >
+        <table tableName="ehr_socialsecurity" domainObjectName="Social"  mapperName="SocialDao" >
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
-         <table tableName="t_dept">
-             <generatedKey column="id" sqlStatement="MySql" identity="true"/>
-         </table>
     </context>
 </generatorConfiguration>
