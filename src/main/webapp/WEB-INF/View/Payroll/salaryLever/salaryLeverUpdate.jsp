@@ -1,13 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <html>
-  
   <head>
     <meta charset="UTF-8">
-    <title>add scoial</title>
+    <title>Edit a salaryLever</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8" />
     <link rel="shortcut icon" href="/favicon.ico" type="../image/x-icon" />
     <link rel="stylesheet" href="/css/font.css">
     <link rel="stylesheet" href="/css/xadmin.css">
@@ -24,69 +23,64 @@
   <body>
     <div class="x-body">
         <form class="layui-form" id = "form">
-            <!--name-->
+            <!-- 公司名称-->
+            <input hidden="hidden" type="text" value="${id}" name="salaryLeverId" id="salaryLeverId">
             <div class="layui-form-item">
-                <label for="companyName" class="layui-form-label">
-                    <span class="x-red">*</span>
-                </label>
-                <div class="layui-input-inline">
-                    <input type="text" id="name" name="companyName" required="" lay-verify="required"
-                           autocomplete="off" class="layui-input">
-                </div>
-                <div class="layui-form-mid layui-word-aux">
+                <label for="name" class="layui-form-label">
                     <span class="x-red">*</span>等级名称
-                </div>
-            </div>
-                        <div class="layui-form-item">
-                <label for="companyName" class="layui-form-label">
-                    <span class="x-red">*</span>
                 </label>
                 <div class="layui-input-inline">
-                    <input type="text" id="salary" name="companyName" required="" lay-verify="required"
-                           autocomplete="off" class="layui-input">
+                    <input type="text" id="name" name="name" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input" value="${name}" />
                 </div>
-                <div class="layui-form-mid layui-word-aux">
+            </div>
+            <!-- 应发工资 -->
+                <div class="layui-form-item">
+                <label for="salary" class="layui-form-label">
                     <span class="x-red">*</span>应发工资
-                </div>
-            </div>
-                        <div class="layui-form-item">
-                <label for="companyName" class="layui-form-label">
-                    <span class="x-red">*</span>
                 </label>
                 <div class="layui-input-inline">
-                    <input type="text" id="mark" name="companyName" required="" lay-verify="required"
-                           autocomplete="off" class="layui-input">
+                    <input type="text" id="salary" name="salary" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input" value="${salary}" />
                 </div>
-                <div class="layui-form-mid layui-word-aux">
+                <!--备注-->
+            <div class="layui-form-item">
+                <label for="mark" class="layui-form-label">
                     <span class="x-red">*</span>备注
+                </label>
+                <div class="layui-input-inline">
+                    <input type="text" id="mark" name="mark" required="" lay-verify="required"
+                           autocomplete="off" class="layui-input" value="${mark}" />
                 </div>
             </div>
               <div class="layui-form-item">
               <label  class="layui-form-label">
               </label>
               <button type="layui-btn"  class="layui-btn" lay-filter="add" lay-submit="">
-                  增加
+                  修改
               </button>
           </div>
+
       </form>
-
-
     </div>
     <script>
-            layui.use(['form','layer'], function(){
+        layui.use(['form','layer'], function(){
             $ = layui.jquery;
             var form = layui.form
                 ,layer = layui.layer;
             //监听提交
             form.on('submit(add)', function(data){
-                console.log($("#name").val());
-             $.post("/payroll/salarylever/addASalaryLever",{
+                console.log(data);
+
+             $.post("/payroll/salarylever/updateASalaryLever",{
+            	 "id": $("#salaryLeverId").val(),
                  "name":$("#name").val(),
                  "salary":$("#salary").val(),
                  "mark":$("#mark").val()
                  }
              )
-                layer.alert("增加成功", {icon: 6},function () {
+
+                layer.alert("修改成功", {icon: 6},function () {
                     // 获得frame索引
                     parent.reloadTable();
                     var index = parent.layer.getFrameIndex(window.name);
@@ -96,6 +90,9 @@
                 return false;
             });
         });
+
+
+
     </script>
 
   </body>

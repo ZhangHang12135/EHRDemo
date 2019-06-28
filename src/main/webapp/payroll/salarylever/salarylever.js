@@ -36,11 +36,11 @@ function reloadTable(){
 				{type: 'checkbox',fixed: 'left',},
 				{field: 'name',title: '等级名称',width:"30%"},
 				{field: 'salary',title: '对应工资',width:"30%"},
-				{field: 'mark',title: '备注'，width:'30%'},
+				{field: 'mark',title: '备注',width:'30%'},
 				{fixed: 'right',title: '操作', toolbar: '#barDemo',}
 			]],
 			page: true,
-			url : '/payroll/salary/salaryList',
+			url : '/payroll/salarylever/salaryLeverList',
 			request: {
 				pageName: 'pageNum',
 				limitName: 'pageSize'
@@ -78,7 +78,7 @@ function reloadTable(){
 		
 		table.on('tool(layTable)',function(obj){
             let data = obj.data;
-            console.log(data.id);
+            console.log(data.event);
             if(obj.event === 'detail'){
                 layer.msg('ID：'+ data.id + ' 的查看操作');
             } else if(obj.event === 'del'){
@@ -87,6 +87,12 @@ function reloadTable(){
                     obj.del();
                     layer.close(index);
                 });
+            } else if(obj.event === 'edit'){
+                console.log(data.id);
+                let url = '/payroll/salarylever/salaryLeverUpdate?id='+data.id;
+                console.log(url);
+                x_admin_show('编辑',url);
+
             }
 		});
 	});

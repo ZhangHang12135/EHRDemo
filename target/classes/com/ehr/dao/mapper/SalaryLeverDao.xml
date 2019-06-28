@@ -57,7 +57,7 @@
     -->
     select id, name, salary, mark, logicToDelete
     from ehr_paygrades
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER} and logicToDelete = 1
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
     <!--
@@ -67,5 +67,6 @@
     -->
     select id, name, salary, mark, logicToDelete
     from ehr_paygrades
+    where logicToDelete = 1
   </select>
 </mapper>
