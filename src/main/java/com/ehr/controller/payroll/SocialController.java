@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.ehr.model.Social;
 import com.ehr.service.SocialService;
 
 @Controller
@@ -43,4 +44,23 @@ public class SocialController {
         map.put("msg","deleteOK");
         return map;
     }
+	//to socialAdd.jsp
+	@RequestMapping("socialAdd")
+    public String socialAdd(){
+        return "/Payroll/social/socialAdd";
+    }
+	//add a social
+	@RequestMapping("addASocial")
+	@ResponseBody
+	public String addASocial(Integer purchaseRate) {
+		System.out.println("add------");
+		Social social = new Social();
+		social.setId(0);//no use
+		social.setPurchaserate(purchaseRate);
+		social.setLogictodelete(1);//default 1
+		socialService.insert(social);
+		System.out.println(social.getPurchaserate());
+		
+		return "Add success";
+	}
 }

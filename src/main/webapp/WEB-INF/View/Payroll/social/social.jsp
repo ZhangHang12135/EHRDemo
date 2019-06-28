@@ -55,8 +55,7 @@
           </script>
 
           <script type="text/html" id="barDemo">
-              <a class="layui-btn layui-btn-xs" lay-event="edit">  <i class="layui-icon">&#xe642;</i></a>
-              <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"> <i class="layui-icon">&#xe640;</i></a>
+              <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"> <i class="layui-icon">&#xe640;删除</i></a>
           </script>
       </table>
       <div class="page" id="page">
