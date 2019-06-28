@@ -1,192 +1,183 @@
-11891 DEBUG [2019-06-28 20:46:30]  Looking for resource handler mappings
-11894 DEBUG [2019-06-28 20:46:30]  Returning cached instance of singleton bean 'faviconHandlerMapping'
-11895 DEBUG [2019-06-28 20:46:30]  Returning cached instance of singleton bean 'resourceHandlerMapping'
-11895 DEBUG [2019-06-28 20:46:30]  Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1766ea89]
-11895 DEBUG [2019-06-28 20:46:30]  Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@17ddcf38]
-11900 DEBUG [2019-06-28 20:46:30]  Found resource handler mapping: URL pattern="/**", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1a1aef6a]
-11963 DEBUG [2019-06-28 20:46:30]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
-12439 INFO  [2019-06-28 20:46:31]  Tomcat started on port(s): 80 (http) with context path ''
-12442 DEBUG [2019-06-28 20:46:31]  Adding PropertySource 'server.ports' with highest search precedence
-12458 INFO  [2019-06-28 20:46:31]  Started RunApp in 12.433 seconds (JVM running for 13.428)
-12466 DEBUG [2019-06-28 20:46:31]  Returning cached instance of singleton bean 'conditionEvaluationDeltaLoggingListener'
-12466 DEBUG [2019-06-28 20:46:31]  Creating new Restarter for thread Thread[main,5,main]
-12466 DEBUG [2019-06-28 20:46:31]  Immediately restarting application
-12466 DEBUG [2019-06-28 20:46:31]  Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a597f6a
-12466 DEBUG [2019-06-28 20:46:31]  Starting application com.ehr.RunApp with URLs [file:/D:/JEE_code/Java/ehrDemo%20-%20Copy/target/classes/]
-12468 DEBUG [2019-06-28 20:46:31]  Returning cached instance of singleton bean 'autoConfigurationReport'
-19523 DEBUG [2019-06-28 20:46:38]  Initializing servlet 'dispatcherServlet'
-19524 INFO  [2019-06-28 20:46:38]  FrameworkServlet 'dispatcherServlet': initialization started
-19524 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'multipartResolver'
-19524 DEBUG [2019-06-28 20:46:38]  Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@5d97eb08]
-19540 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
-19548 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-19549 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
-19549 DEBUG [2019-06-28 20:46:38]  Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@58155a17]
-19550 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
-19556 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-19556 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
-19556 DEBUG [2019-06-28 20:46:38]  Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@220d0dd1]
-19556 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'faviconHandlerMapping'
-19556 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'requestMappingHandlerMapping'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'viewControllerHandlerMapping'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'beanNameHandlerMapping'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'resourceHandlerMapping'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'defaultServletHandlerMapping'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'welcomePageHandlerMapping'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
-19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
-19558 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'errorAttributes'
-19558 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'handlerExceptionResolver'
-19559 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
-19567 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-19567 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
-19567 DEBUG [2019-06-28 20:46:38]  Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1a7fc2b2]
-19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'beanNameViewResolver'
-19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'mvcViewResolver'
-19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'defaultViewResolver'
-19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'viewResolver'
-19569 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
-19584 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-19584 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
-19584 DEBUG [2019-06-28 20:46:38]  Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@5aa2b0ce]
-19584 DEBUG [2019-06-28 20:46:38]  Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
-19584 INFO  [2019-06-28 20:46:38]  FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
-19585 DEBUG [2019-06-28 20:46:38]  Servlet 'dispatcherServlet' configured successfully
-19756 DEBUG [2019-06-28 20:46:38]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@12f6dfee
-19758 DEBUG [2019-06-28 20:46:38]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company/companyList]
-19763 DEBUG [2019-06-28 20:46:38]  Looking up handler method for path /organization/company/companyList
-19766 DEBUG [2019-06-28 20:46:38]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.organization.company.CompanyController.companyList(java.lang.Integer,java.lang.Integer)]
-19766 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'companyController'
-19767 DEBUG [2019-06-28 20:46:38]  Last-Modified value for [/organization/company/companyList] is: -1
-19912 DEBUG [2019-06-28 20:46:38]  Fetching JDBC Connection from DataSource
-21020 DEBUG [2019-06-28 20:46:40]  Fetching JDBC Connection from DataSource
-21429 DEBUG [2019-06-28 20:46:40]  Written [{code=0, data=[Company{id=1, name='隐世集团', address='武汉光谷软件园', mark='武汉500强公司其中之一2', logictodelete=1, createtime=Wed Apr 11 17:05:02 CST 2018}, Company{id=2, name='武汉创新有限公司', address='武汉光谷软件园', mark='武汉第一家进入500强的公司', logictodelete=1, createtime=Thu Apr 26 17:05:06 CST 2018}, Company{id=3, name='武汉德馨有限公司', address='武汉光谷软件园', mark='武汉一家实力公司', logictodelete=1, createtime=Fri Apr 27 17:05:09 CST 2018}, Company{id=4, name='武汉天意有限公司', address='武汉洪山区', mark='一家实力中上，门槛低的公司', logictodelete=1, createtime=Tue Apr 17 17:05:13 CST 2018}, Company{id=5, name='武汉哲天有限公司', address='武汉洪山区', mark='一家小公司，实力并不出众', logictodelete=1, createtime=null}, Company{id=6, name='宜昌金江银座股份有限公司', address='宜昌伍家区', mark='位于宜昌的一个大集团', logictodelete=1, createtime=null}, Company{id=7, name='宜昌瑞祥有限公司', address='宜昌伍家区', mark='宜昌制药业巨头', logictodelete=1, createtime=null}, Company{id=11, name='宝武钢铁有限公司', address='上海市浦东新区', mark='中国钢铁制造业巨头', logictodelete=0, createtime=null}, Company{id=13, name='碧桂园控股有限公司', address='广州佛山区', mark='中国目前最大的专业住宅开发区', logictodelete=0, createtime=null}, Company{id=14, name='中国保利集团', address='湖北武汉', mark='武汉500强公司其中之一', logictodelete=0, createtime=null}], count=10}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42756ff5]
-21430 DEBUG [2019-06-28 20:46:40]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-21430 DEBUG [2019-06-28 20:46:40]  Successfully completed request
-21431 DEBUG [2019-06-28 20:46:40]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@12f6dfee
-23948 DEBUG [2019-06-28 20:46:42]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@12f6dfee
-23949 DEBUG [2019-06-28 20:46:42]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company]
-23950 DEBUG [2019-06-28 20:46:42]  Looking up handler method for path /organization/company
-23959 DEBUG [2019-06-28 20:46:42]  Did not find handler method for [/organization/company]
-23959 DEBUG [2019-06-28 20:46:42]  Matching patterns for request [/organization/company] are [/**]
-23961 DEBUG [2019-06-28 20:46:42]  URI Template variables for request [/organization/company] are {}
-23963 DEBUG [2019-06-28 20:46:42]  Mapping [/organization/company] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1a1aef6a]]] and 1 interceptor
-23983 DEBUG [2019-06-28 20:46:42]  Last-Modified value for [/organization/company] is: -1
-24026 DEBUG [2019-06-28 20:46:43]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-24026 DEBUG [2019-06-28 20:46:43]  Successfully completed request
-24026 DEBUG [2019-06-28 20:46:43]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@12f6dfee
-24055 DEBUG [2019-06-28 20:46:43]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/error]
-24055 DEBUG [2019-06-28 20:46:43]  Looking up handler method for path /error
-24057 DEBUG [2019-06-28 20:46:43]  Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
-24057 DEBUG [2019-06-28 20:46:43]  Returning cached instance of singleton bean 'basicErrorController'
-24057 DEBUG [2019-06-28 20:46:43]  Last-Modified value for [/error] is: -1
-24066 DEBUG [2019-06-28 20:46:43]  Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
-24069 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
-24069 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
-24072 DEBUG [2019-06-28 20:46:43]  Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
-24077 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
-24078 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
-24086 DEBUG [2019-06-28 20:46:43]  Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
-24086 DEBUG [2019-06-28 20:46:43]  Returning cached instance of singleton bean 'error'
-24100 DEBUG [2019-06-28 20:46:43]  Invoking afterPropertiesSet() on bean with name 'error'
-24100 DEBUG [2019-06-28 20:46:43]  Returning [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@3b49871d] based on requested media type 'text/html'
-24100 DEBUG [2019-06-28 20:46:43]  Rendering view [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@3b49871d] in DispatcherServlet with name 'dispatcherServlet'
-24215 DEBUG [2019-06-28 20:46:43]  Successfully completed request
-29315 DEBUG [2019-06-28 20:46:48]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
-29315 DEBUG [2019-06-28 20:46:48]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company/]
-29315 DEBUG [2019-06-28 20:46:48]  Looking up handler method for path /organization/company/
-29315 DEBUG [2019-06-28 20:46:48]  Returning handler method [public java.lang.String com.ehr.controller.organization.company.CompanyController.company()]
-29316 DEBUG [2019-06-28 20:46:48]  Returning cached instance of singleton bean 'companyController'
-29316 DEBUG [2019-06-28 20:46:48]  Last-Modified value for [/organization/company/] is: -1
-29319 DEBUG [2019-06-28 20:46:48]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
-29319 DEBUG [2019-06-28 20:46:48]  No matching bean found for view name '/organization/company/companyList'
-29320 DEBUG [2019-06-28 20:46:48]  Invoking afterPropertiesSet() on bean with name '/organization/company/companyList'
-29320 DEBUG [2019-06-28 20:46:48]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-29327 DEBUG [2019-06-28 20:46:48]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyList'; URL [/WEB-INF/View//organization/company/companyList.jsp]] based on requested media type 'text/html'
-29327 DEBUG [2019-06-28 20:46:48]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyList'; URL [/WEB-INF/View//organization/company/companyList.jsp]] in DispatcherServlet with name 'dispatcherServlet'
-29330 DEBUG [2019-06-28 20:46:48]  Forwarding to resource [/WEB-INF/View//organization/company/companyList.jsp] in InternalResourceView '/organization/company/companyList'
-30780 DEBUG [2019-06-28 20:46:49]  Successfully completed request
-30780 DEBUG [2019-06-28 20:46:49]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
-30974 DEBUG [2019-06-28 20:46:49]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
-30974 DEBUG [2019-06-28 20:46:49]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/companyApi.js]
-30974 DEBUG [2019-06-28 20:46:49]  Looking up handler method for path /organization/companyApi.js
-30978 DEBUG [2019-06-28 20:46:49]  Did not find handler method for [/organization/companyApi.js]
-30978 DEBUG [2019-06-28 20:46:49]  Matching patterns for request [/organization/companyApi.js] are [/**]
-30978 DEBUG [2019-06-28 20:46:49]  URI Template variables for request [/organization/companyApi.js] are {}
-30978 DEBUG [2019-06-28 20:46:49]  Mapping [/organization/companyApi.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1a1aef6a]]] and 1 interceptor
-30978 DEBUG [2019-06-28 20:46:49]  Last-Modified value for [/organization/companyApi.js] is: -1
-31077 DEBUG [2019-06-28 20:46:50]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-31077 DEBUG [2019-06-28 20:46:50]  Successfully completed request
-31077 DEBUG [2019-06-28 20:46:50]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
-31252 DEBUG [2019-06-28 20:46:50]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
-31253 DEBUG [2019-06-28 20:46:50]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/organization/company/companyListPage]
-31253 DEBUG [2019-06-28 20:46:50]  Looking up handler method for path /organization/company/companyListPage
-31253 DEBUG [2019-06-28 20:46:50]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.organization.company.CompanyController.companyListPage(java.lang.Integer,java.lang.Integer)]
-31253 DEBUG [2019-06-28 20:46:50]  Returning cached instance of singleton bean 'companyController'
-31288 DEBUG [2019-06-28 20:46:50]  Skip CORS processing: request is from same origin
-31438 DEBUG [2019-06-28 20:46:50]  Fetching JDBC Connection from DataSource
-31447 DEBUG [2019-06-28 20:46:50]  Fetching JDBC Connection from DataSource
-31500 DEBUG [2019-06-28 20:46:50]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=10, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=10, pages=1, reasonable=false, pageSizeZero=false}[Company{id=1, name='隐世集团', address='武汉光谷软件园', mark='武汉500强公司其中之一2', logictodelete=1, createtime=Wed Apr 11 17:05:02 CST 2018}, Company{id=2, name='武汉创新有限公司', address='武汉光谷软件园', mark='武汉第一家进入500强的公司', logictodelete=1, createtime=Thu Apr 26 17:05:06 CST 2018}, Company{id=3, name='武汉德馨有限公司', address='武汉光谷软件园', mark='武汉一家实力公司', logictodelete=1, createtime=Fri Apr 27 17:05:09 CST 2018}, Company{id=4, name='武汉天意有限公司', address='武汉洪山区', mark='一家实力中上，门槛低的公司', logictodelete=1, createtime=Tue Apr 17 17:05:13 CST 2018}, Company{id=5, name='武汉哲天有限公司', address='武汉洪山区', mark='一家小公司，实力并不出众', logictodelete=1, createtime=null}, Company{id=6, name='宜昌金江银座股份有限公司', address='宜昌伍家区', mark='位于宜昌的一个大集团', logictodelete=1, createtime=null}, Company{id=7, name='宜昌瑞祥有限公司', address='宜昌伍家区', mark='宜昌制药业巨头', logictodelete=1, createtime=null}, Company{id=11, name='宝武钢铁有限公司', address='上海市浦东新区', mark='中国钢铁制造业巨头', logictodelete=0, createtime=null}, Company{id=13, name='碧桂园控股有限公司', address='广州佛山区', mark='中国目前最大的专业住宅开发区', logictodelete=0, createtime=null}, Company{id=14, name='中国保利集团', address='湖北武汉', mark='武汉500强公司其中之一', logictodelete=0, createtime=null}], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=10, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=10, pages=1, reasonable=false, pageSizeZero=false}[Company{id=1, name='隐世集团', address='武汉光谷软件园', mark='武汉500强公司其中之一2', logictodelete=1, createtime=Wed Apr 11 17:05:02 CST 2018}, Company{id=2, name='武汉创新有限公司', address='武汉光谷软件园', mark='武汉第一家进入500强的公司', logictodelete=1, createtime=Thu Apr 26 17:05:06 CST 2018}, Company{id=3, name='武汉德馨有限公司', address='武汉光谷软件园', mark='武汉一家实力公司', logictodelete=1, createtime=Fri Apr 27 17:05:09 CST 2018}, Company{id=4, name='武汉天意有限公司', address='武汉洪山区', mark='一家实力中上，门槛低的公司', logictodelete=1, createtime=Tue Apr 17 17:05:13 CST 2018}, Company{id=5, name='武汉哲天有限公司', address='武汉洪山区', mark='一家小公司，实力并不出众', logictodelete=1, createtime=null}, Company{id=6, name='宜昌金江银座股份有限公司', address='宜昌伍家区', mark='位于宜昌的一个大集团', logictodelete=1, createtime=null}, Company{id=7, name='宜昌瑞祥有限公司', address='宜昌伍家区', mark='宜昌制药业巨头', logictodelete=1, createtime=null}, Company{id=11, name='宝武钢铁有限公司', address='上海市浦东新区', mark='中国钢铁制造业巨头', logictodelete=0, createtime=null}, Company{id=13, name='碧桂园控股有限公司', address='广州佛山区', mark='中国目前最大的专业住宅开发区', logictodelete=0, createtime=null}, Company{id=14, name='中国保利集团', address='湖北武汉', mark='武汉500强公司其中之一', logictodelete=0, createtime=null}], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42756ff5]
-31502 DEBUG [2019-06-28 20:46:50]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-31502 DEBUG [2019-06-28 20:46:50]  Successfully completed request
-31502 DEBUG [2019-06-28 20:46:50]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
-36480 DEBUG [2019-06-28 20:46:55]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
-36483 DEBUG [2019-06-28 20:46:55]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company/companyUpdate]
-36484 DEBUG [2019-06-28 20:46:55]  Looking up handler method for path /organization/company/companyUpdate
-36484 DEBUG [2019-06-28 20:46:55]  Returning handler method [public java.lang.String com.ehr.controller.organization.company.CompanyController.companyUpdate(java.lang.Integer,javax.servlet.http.HttpServletRequest)]
-36484 DEBUG [2019-06-28 20:46:55]  Returning cached instance of singleton bean 'companyController'
-36484 DEBUG [2019-06-28 20:46:55]  Last-Modified value for [/organization/company/companyUpdate] is: -1
-36488 DEBUG [2019-06-28 20:46:55]  Fetching JDBC Connection from DataSource
-36491 DEBUG [2019-06-28 20:46:55]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
-36491 DEBUG [2019-06-28 20:46:55]  No matching bean found for view name '/organization/company/companyUpdate'
-36491 DEBUG [2019-06-28 20:46:55]  Invoking afterPropertiesSet() on bean with name '/organization/company/companyUpdate'
-36491 DEBUG [2019-06-28 20:46:55]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-36491 DEBUG [2019-06-28 20:46:55]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyUpdate'; URL [/WEB-INF/View//organization/company/companyUpdate.jsp]] based on requested media type 'text/html'
-36491 DEBUG [2019-06-28 20:46:55]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyUpdate'; URL [/WEB-INF/View//organization/company/companyUpdate.jsp]] in DispatcherServlet with name 'dispatcherServlet'
-36492 DEBUG [2019-06-28 20:46:55]  Forwarding to resource [/WEB-INF/View//organization/company/companyUpdate.jsp] in InternalResourceView '/organization/company/companyUpdate'
-37003 DEBUG [2019-06-28 20:46:56]  Successfully completed request
-37004 DEBUG [2019-06-28 20:46:56]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
-52525 DEBUG [2019-06-28 20:47:11]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
-52526 DEBUG [2019-06-28 20:47:11]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/salarylever]
-52526 DEBUG [2019-06-28 20:47:11]  Looking up handler method for path /payroll/salarylever
-52526 DEBUG [2019-06-28 20:47:11]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SalaryLeverController.salaryLever()]
-52526 DEBUG [2019-06-28 20:47:11]  Returning cached instance of singleton bean 'salaryLeverController'
-52526 DEBUG [2019-06-28 20:47:11]  Last-Modified value for [/payroll/salarylever] is: -1
-52527 DEBUG [2019-06-28 20:47:11]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
-52527 DEBUG [2019-06-28 20:47:11]  No matching bean found for view name '/Payroll/salaryLever/salaryLever'
-52527 DEBUG [2019-06-28 20:47:11]  Invoking afterPropertiesSet() on bean with name '/Payroll/salaryLever/salaryLever'
-52527 DEBUG [2019-06-28 20:47:11]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-52528 DEBUG [2019-06-28 20:47:11]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/salaryLever/salaryLever'; URL [/WEB-INF/View//Payroll/salaryLever/salaryLever.jsp]] based on requested media type 'text/html'
-52528 DEBUG [2019-06-28 20:47:11]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/salaryLever/salaryLever'; URL [/WEB-INF/View//Payroll/salaryLever/salaryLever.jsp]] in DispatcherServlet with name 'dispatcherServlet'
-52528 DEBUG [2019-06-28 20:47:11]  Forwarding to resource [/WEB-INF/View//Payroll/salaryLever/salaryLever.jsp] in InternalResourceView '/Payroll/salaryLever/salaryLever'
-52980 DEBUG [2019-06-28 20:47:11]  Successfully completed request
-52980 DEBUG [2019-06-28 20:47:11]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
-53114 DEBUG [2019-06-28 20:47:12]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
-53114 DEBUG [2019-06-28 20:47:12]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylever/salaryLeverList]
-53114 DEBUG [2019-06-28 20:47:12]  Looking up handler method for path /payroll/salarylever/salaryLeverList
-53115 DEBUG [2019-06-28 20:47:12]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryLeverController.salaryLeverList(java.lang.Integer,java.lang.Integer)]
-53115 DEBUG [2019-06-28 20:47:12]  Returning cached instance of singleton bean 'salaryLeverController'
-53116 DEBUG [2019-06-28 20:47:12]  Skip CORS processing: request is from same origin
-53141 DEBUG [2019-06-28 20:47:12]  Fetching JDBC Connection from DataSource
-53145 DEBUG [2019-06-28 20:47:12]  Fetching JDBC Connection from DataSource
-53153 DEBUG [2019-06-28 20:47:12]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@2a06642f, com.ehr.model.SalaryLever@5e3e6cd8, com.ehr.model.SalaryLever@3796c808, com.ehr.model.SalaryLever@20c3de98, com.ehr.model.SalaryLever@397de1b3], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@140802e8, com.ehr.model.SalaryLever@15df4ee9, com.ehr.model.SalaryLever@2bd675d4, com.ehr.model.SalaryLever@7df06964, com.ehr.model.SalaryLever@293b2b70], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42756ff5]
-53153 DEBUG [2019-06-28 20:47:12]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-53153 DEBUG [2019-06-28 20:47:12]  Successfully completed request
-53153 DEBUG [2019-06-28 20:47:12]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
-55278 DEBUG [2019-06-28 20:47:14]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@12f6dfee
-55278 DEBUG [2019-06-28 20:47:14]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/salarylever/salaryLeverUpdate]
-55279 DEBUG [2019-06-28 20:47:14]  Looking up handler method for path /payroll/salarylever/salaryLeverUpdate
-55279 DEBUG [2019-06-28 20:47:14]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SalaryLeverController.updateSalaryLever(java.lang.Integer,javax.servlet.http.HttpServletRequest)]
-55279 DEBUG [2019-06-28 20:47:14]  Returning cached instance of singleton bean 'salaryLeverController'
-55279 DEBUG [2019-06-28 20:47:14]  Last-Modified value for [/payroll/salarylever/salaryLeverUpdate] is: -1
-55280 DEBUG [2019-06-28 20:47:14]  Fetching JDBC Connection from DataSource
-55282 DEBUG [2019-06-28 20:47:14]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
-55283 DEBUG [2019-06-28 20:47:14]  No matching bean found for view name 'Payroll/salaryLever/salaryLeverUpdate'
-55283 DEBUG [2019-06-28 20:47:14]  Invoking afterPropertiesSet() on bean with name 'Payroll/salaryLever/salaryLeverUpdate'
-55283 DEBUG [2019-06-28 20:47:14]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-55283 DEBUG [2019-06-28 20:47:14]  Returning [org.springframework.web.servlet.view.InternalResourceView: name 'Payroll/salaryLever/salaryLeverUpdate'; URL [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp]] based on requested media type 'text/html'
-55283 DEBUG [2019-06-28 20:47:14]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name 'Payroll/salaryLever/salaryLeverUpdate'; URL [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp]] in DispatcherServlet with name 'dispatcherServlet'
-55283 DEBUG [2019-06-28 20:47:14]  Forwarding to resource [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp] in InternalResourceView 'Payroll/salaryLever/salaryLeverUpdate'
-55792 DEBUG [2019-06-28 20:47:14]  Successfully completed request
-55792 DEBUG [2019-06-28 20:47:14]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@12f6dfee
+900506 DEBUG [2019-06-28 22:49:04]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+900506 DEBUG [2019-06-28 22:49:04]  Successfully completed request
+900506 DEBUG [2019-06-28 22:49:04]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+908794 DEBUG [2019-06-28 22:49:12]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+908794 DEBUG [2019-06-28 22:49:12]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/deletesalarylist]
+908795 DEBUG [2019-06-28 22:49:12]  Looking up handler method for path /payroll/salarylist/deletesalarylist
+908795 DEBUG [2019-06-28 22:49:12]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.deleteASocial(java.lang.Integer)]
+908795 DEBUG [2019-06-28 22:49:12]  Returning cached instance of singleton bean 'salaryListController'
+908796 DEBUG [2019-06-28 22:49:12]  Skip CORS processing: request is from same origin
+908796 DEBUG [2019-06-28 22:49:12]  Fetching JDBC Connection from DataSource
+908798 DEBUG [2019-06-28 22:49:12]  Fetching JDBC Connection from DataSource
+908802 DEBUG [2019-06-28 22:49:12]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4952fd39
+908802 DEBUG [2019-06-28 22:49:12]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/deletesalarylist]
+908802 DEBUG [2019-06-28 22:49:12]  Looking up handler method for path /payroll/salarylist/deletesalarylist
+908802 DEBUG [2019-06-28 22:49:12]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.deleteASocial(java.lang.Integer)]
+908802 DEBUG [2019-06-28 22:49:12]  Returning cached instance of singleton bean 'salaryListController'
+908803 DEBUG [2019-06-28 22:49:12]  Skip CORS processing: request is from same origin
+908803 DEBUG [2019-06-28 22:49:12]  Fetching JDBC Connection from DataSource
+908889 DEBUG [2019-06-28 22:49:13]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+908889 DEBUG [2019-06-28 22:49:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+908889 DEBUG [2019-06-28 22:49:13]  Successfully completed request
+908889 DEBUG [2019-06-28 22:49:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+908894 DEBUG [2019-06-28 22:49:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+908894 DEBUG [2019-06-28 22:49:13]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/deletesalarylist]
+908894 DEBUG [2019-06-28 22:49:13]  Looking up handler method for path /payroll/salarylist/deletesalarylist
+908894 DEBUG [2019-06-28 22:49:13]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.deleteASocial(java.lang.Integer)]
+908894 DEBUG [2019-06-28 22:49:13]  Returning cached instance of singleton bean 'salaryListController'
+908894 DEBUG [2019-06-28 22:49:13]  Skip CORS processing: request is from same origin
+908895 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+908903 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+908921 DEBUG [2019-06-28 22:49:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4b195e8e
+908922 DEBUG [2019-06-28 22:49:13]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+908922 DEBUG [2019-06-28 22:49:13]  Looking up handler method for path /payroll/salarylist/salarylistList
+908922 DEBUG [2019-06-28 22:49:13]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+908922 DEBUG [2019-06-28 22:49:13]  Returning cached instance of singleton bean 'salaryListController'
+908922 DEBUG [2019-06-28 22:49:13]  Skip CORS processing: request is from same origin
+908924 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909186 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909235 DEBUG [2019-06-28 22:49:13]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+909235 DEBUG [2019-06-28 22:49:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+909235 DEBUG [2019-06-28 22:49:13]  Successfully completed request
+909235 DEBUG [2019-06-28 22:49:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+909254 DEBUG [2019-06-28 22:49:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+909254 DEBUG [2019-06-28 22:49:13]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+909254 DEBUG [2019-06-28 22:49:13]  Looking up handler method for path /payroll/salarylist/salarylistList
+909254 DEBUG [2019-06-28 22:49:13]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+909254 DEBUG [2019-06-28 22:49:13]  Returning cached instance of singleton bean 'salaryListController'
+909254 DEBUG [2019-06-28 22:49:13]  Skip CORS processing: request is from same origin
+909256 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909314 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909315 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909320 DEBUG [2019-06-28 22:49:13]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=478, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=478, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@84122fd, com.ehr.model.SalaryList@69b1d606, com.ehr.model.SalaryList@29f98bb, com.ehr.model.SalaryList@ec3213a, com.ehr.model.SalaryList@f14bcd5, com.ehr.model.SalaryList@68724ad7, com.ehr.model.SalaryList@16564d22, com.ehr.model.SalaryList@18b6423, com.ehr.model.SalaryList@2b5392d3, com.ehr.model.SalaryList@510d519c], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=477, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=477, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@751629c2, com.ehr.model.SalaryList@2f66e13f, com.ehr.model.SalaryList@18942b0a, com.ehr.model.SalaryList@23ae1835, com.ehr.model.SalaryList@67b26dbb, com.ehr.model.SalaryList@7fc5076b, com.ehr.model.SalaryList@46b0afe2, com.ehr.model.SalaryList@150c78b1, com.ehr.model.SalaryList@61a7001e, com.ehr.model.SalaryList@368ebd1e], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+909320 DEBUG [2019-06-28 22:49:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+909320 DEBUG [2019-06-28 22:49:13]  Successfully completed request
+909321 DEBUG [2019-06-28 22:49:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4b195e8e
+909322 DEBUG [2019-06-28 22:49:13]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=477, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=477, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@64048765, com.ehr.model.SalaryList@4e3b8d1, com.ehr.model.SalaryList@1491932, com.ehr.model.SalaryList@14ebeed9, com.ehr.model.SalaryList@54947c8e, com.ehr.model.SalaryList@4da863fd, com.ehr.model.SalaryList@4e163f3, com.ehr.model.SalaryList@4f37c890, com.ehr.model.SalaryList@38b0adf4, com.ehr.model.SalaryList@36099694], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=477, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=477, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@3978955d, com.ehr.model.SalaryList@487ab9aa, com.ehr.model.SalaryList@7518725c, com.ehr.model.SalaryList@fdff75d, com.ehr.model.SalaryList@72705986, com.ehr.model.SalaryList@6fda098b, com.ehr.model.SalaryList@59e61cbe, com.ehr.model.SalaryList@29737dc0, com.ehr.model.SalaryList@593fad01, com.ehr.model.SalaryList@661671fc], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+909322 DEBUG [2019-06-28 22:49:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+909322 DEBUG [2019-06-28 22:49:13]  Successfully completed request
+909322 DEBUG [2019-06-28 22:49:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+909389 DEBUG [2019-06-28 22:49:13]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+909390 DEBUG [2019-06-28 22:49:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+909390 DEBUG [2019-06-28 22:49:13]  Successfully completed request
+909390 DEBUG [2019-06-28 22:49:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4952fd39
+909468 DEBUG [2019-06-28 22:49:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4952fd39
+909468 DEBUG [2019-06-28 22:49:13]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+909468 DEBUG [2019-06-28 22:49:13]  Looking up handler method for path /payroll/salarylist/salarylistList
+909468 DEBUG [2019-06-28 22:49:13]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+909468 DEBUG [2019-06-28 22:49:13]  Returning cached instance of singleton bean 'salaryListController'
+909468 DEBUG [2019-06-28 22:49:13]  Skip CORS processing: request is from same origin
+909470 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909474 DEBUG [2019-06-28 22:49:13]  Fetching JDBC Connection from DataSource
+909483 DEBUG [2019-06-28 22:49:13]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=476, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=476, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@57fb81eb, com.ehr.model.SalaryList@185a982b, com.ehr.model.SalaryList@2ff2b00e, com.ehr.model.SalaryList@49960826, com.ehr.model.SalaryList@42692c26, com.ehr.model.SalaryList@e3e7f80, com.ehr.model.SalaryList@34f6dc89, com.ehr.model.SalaryList@4dd83509, com.ehr.model.SalaryList@46db3888, com.ehr.model.SalaryList@3b649dac], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=476, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=476, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@39f40cdd, com.ehr.model.SalaryList@35880697, com.ehr.model.SalaryList@2a8867d6, com.ehr.model.SalaryList@359e16d6, com.ehr.model.SalaryList@2c95765c, com.ehr.model.SalaryList@595c71e7, com.ehr.model.SalaryList@30831bcd, com.ehr.model.SalaryList@75ee93ad, com.ehr.model.SalaryList@724e2cda, com.ehr.model.SalaryList@4827a83d], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+909483 DEBUG [2019-06-28 22:49:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+909483 DEBUG [2019-06-28 22:49:13]  Successfully completed request
+909483 DEBUG [2019-06-28 22:49:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4952fd39
+917829 DEBUG [2019-06-28 22:49:21]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4952fd39
+917829 DEBUG [2019-06-28 22:49:21]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/deletesalarylist]
+917829 DEBUG [2019-06-28 22:49:21]  Looking up handler method for path /payroll/salarylist/deletesalarylist
+917829 DEBUG [2019-06-28 22:49:21]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.deleteASocial(java.lang.Integer)]
+917829 DEBUG [2019-06-28 22:49:21]  Returning cached instance of singleton bean 'salaryListController'
+917830 DEBUG [2019-06-28 22:49:21]  Skip CORS processing: request is from same origin
+917830 DEBUG [2019-06-28 22:49:21]  Fetching JDBC Connection from DataSource
+917832 DEBUG [2019-06-28 22:49:21]  Fetching JDBC Connection from DataSource
+917851 DEBUG [2019-06-28 22:49:21]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+917851 DEBUG [2019-06-28 22:49:21]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/deletesalarylist]
+917851 DEBUG [2019-06-28 22:49:21]  Looking up handler method for path /payroll/salarylist/deletesalarylist
+917851 DEBUG [2019-06-28 22:49:21]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.deleteASocial(java.lang.Integer)]
+917851 DEBUG [2019-06-28 22:49:21]  Returning cached instance of singleton bean 'salaryListController'
+917851 DEBUG [2019-06-28 22:49:21]  Skip CORS processing: request is from same origin
+917852 DEBUG [2019-06-28 22:49:21]  Fetching JDBC Connection from DataSource
+917853 DEBUG [2019-06-28 22:49:21]  Fetching JDBC Connection from DataSource
+917889 DEBUG [2019-06-28 22:49:22]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+917890 DEBUG [2019-06-28 22:49:22]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+917890 DEBUG [2019-06-28 22:49:22]  Successfully completed request
+917890 DEBUG [2019-06-28 22:49:22]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4952fd39
+917933 DEBUG [2019-06-28 22:49:22]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+917933 DEBUG [2019-06-28 22:49:22]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+917933 DEBUG [2019-06-28 22:49:22]  Successfully completed request
+917933 DEBUG [2019-06-28 22:49:22]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+917950 DEBUG [2019-06-28 22:49:22]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+917950 DEBUG [2019-06-28 22:49:22]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/deletesalarylist]
+917950 DEBUG [2019-06-28 22:49:22]  Looking up handler method for path /payroll/salarylist/deletesalarylist
+917950 DEBUG [2019-06-28 22:49:22]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.deleteASocial(java.lang.Integer)]
+917950 DEBUG [2019-06-28 22:49:22]  Returning cached instance of singleton bean 'salaryListController'
+917951 DEBUG [2019-06-28 22:49:22]  Skip CORS processing: request is from same origin
+917951 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+917953 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+917970 DEBUG [2019-06-28 22:49:22]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4952fd39
+917970 DEBUG [2019-06-28 22:49:22]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+917970 DEBUG [2019-06-28 22:49:22]  Looking up handler method for path /payroll/salarylist/salarylistList
+917970 DEBUG [2019-06-28 22:49:22]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+917970 DEBUG [2019-06-28 22:49:22]  Returning cached instance of singleton bean 'salaryListController'
+917970 DEBUG [2019-06-28 22:49:22]  Skip CORS processing: request is from same origin
+917972 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+917977 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+917982 DEBUG [2019-06-28 22:49:22]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@3fb1dfe6, com.ehr.model.SalaryList@9952800, com.ehr.model.SalaryList@553e8be5, com.ehr.model.SalaryList@3a3361f6, com.ehr.model.SalaryList@b4cc7b9, com.ehr.model.SalaryList@2b393bf8, com.ehr.model.SalaryList@af9ecd9, com.ehr.model.SalaryList@2b6400a1, com.ehr.model.SalaryList@46786b7b, com.ehr.model.SalaryList@24fc6eb7], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@61a6c1d5, com.ehr.model.SalaryList@6a4ca448, com.ehr.model.SalaryList@6f6a29c9, com.ehr.model.SalaryList@28a46b45, com.ehr.model.SalaryList@7f5bbfed, com.ehr.model.SalaryList@70ba2aaa, com.ehr.model.SalaryList@4e206115, com.ehr.model.SalaryList@4555c5d7, com.ehr.model.SalaryList@67d3be47, com.ehr.model.SalaryList@469d276d], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+917982 DEBUG [2019-06-28 22:49:22]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+917982 DEBUG [2019-06-28 22:49:22]  Successfully completed request
+917982 DEBUG [2019-06-28 22:49:22]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4952fd39
+917989 DEBUG [2019-06-28 22:49:22]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+917990 DEBUG [2019-06-28 22:49:22]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+917990 DEBUG [2019-06-28 22:49:22]  Successfully completed request
+917990 DEBUG [2019-06-28 22:49:22]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+917995 DEBUG [2019-06-28 22:49:22]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+917995 DEBUG [2019-06-28 22:49:22]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+917995 DEBUG [2019-06-28 22:49:22]  Looking up handler method for path /payroll/salarylist/salarylistList
+917995 DEBUG [2019-06-28 22:49:22]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+917995 DEBUG [2019-06-28 22:49:22]  Returning cached instance of singleton bean 'salaryListController'
+917996 DEBUG [2019-06-28 22:49:22]  Skip CORS processing: request is from same origin
+917999 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+918003 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+918008 DEBUG [2019-06-28 22:49:22]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@7057b1a4, com.ehr.model.SalaryList@424de610, com.ehr.model.SalaryList@60f9d01d, com.ehr.model.SalaryList@26c48105, com.ehr.model.SalaryList@6b53dee8, com.ehr.model.SalaryList@4603d8f4, com.ehr.model.SalaryList@68548111, com.ehr.model.SalaryList@6a1af9b7, com.ehr.model.SalaryList@1fcbce82, com.ehr.model.SalaryList@47d771f7], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@bc73c15, com.ehr.model.SalaryList@36adbb9b, com.ehr.model.SalaryList@7753dc12, com.ehr.model.SalaryList@b7743c6, com.ehr.model.SalaryList@39e2f129, com.ehr.model.SalaryList@62c8f4ed, com.ehr.model.SalaryList@b9217ea, com.ehr.model.SalaryList@3a4a0c2d, com.ehr.model.SalaryList@148fc9f4, com.ehr.model.SalaryList@31453814], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+918008 DEBUG [2019-06-28 22:49:22]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+918008 DEBUG [2019-06-28 22:49:22]  Successfully completed request
+918008 DEBUG [2019-06-28 22:49:22]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+918088 DEBUG [2019-06-28 22:49:22]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+918089 DEBUG [2019-06-28 22:49:22]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+918089 DEBUG [2019-06-28 22:49:22]  Looking up handler method for path /payroll/salarylist/salarylistList
+918089 DEBUG [2019-06-28 22:49:22]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+918089 DEBUG [2019-06-28 22:49:22]  Returning cached instance of singleton bean 'salaryListController'
+918090 DEBUG [2019-06-28 22:49:22]  Skip CORS processing: request is from same origin
+918093 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+918099 DEBUG [2019-06-28 22:49:22]  Fetching JDBC Connection from DataSource
+918105 DEBUG [2019-06-28 22:49:22]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@27e8196a, com.ehr.model.SalaryList@184d4aa, com.ehr.model.SalaryList@1c88d3bc, com.ehr.model.SalaryList@34270291, com.ehr.model.SalaryList@53e37e36, com.ehr.model.SalaryList@74e5d164, com.ehr.model.SalaryList@2eaaf977, com.ehr.model.SalaryList@221545b9, com.ehr.model.SalaryList@6a4f8d03, com.ehr.model.SalaryList@307b0fdf], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@496339e6, com.ehr.model.SalaryList@415395fe, com.ehr.model.SalaryList@57e23f42, com.ehr.model.SalaryList@3f8fc796, com.ehr.model.SalaryList@6ff36588, com.ehr.model.SalaryList@3252e1ed, com.ehr.model.SalaryList@740cc0ca, com.ehr.model.SalaryList@35fe1aaa, com.ehr.model.SalaryList@4155f6b8, com.ehr.model.SalaryList@642d3af6], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+918105 DEBUG [2019-06-28 22:49:22]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+918105 DEBUG [2019-06-28 22:49:22]  Successfully completed request
+918106 DEBUG [2019-06-28 22:49:22]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+930968 DEBUG [2019-06-28 22:49:35]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+930969 DEBUG [2019-06-28 22:49:35]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+930969 DEBUG [2019-06-28 22:49:35]  Looking up handler method for path /payroll/salarylist/salarylistList
+930969 DEBUG [2019-06-28 22:49:35]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+930969 DEBUG [2019-06-28 22:49:35]  Returning cached instance of singleton bean 'salaryListController'
+930969 DEBUG [2019-06-28 22:49:35]  Skip CORS processing: request is from same origin
+930971 DEBUG [2019-06-28 22:49:35]  Fetching JDBC Connection from DataSource
+930975 DEBUG [2019-06-28 22:49:35]  Fetching JDBC Connection from DataSource
+930980 DEBUG [2019-06-28 22:49:35]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@63426236, com.ehr.model.SalaryList@25dc356, com.ehr.model.SalaryList@3ef4cddf, com.ehr.model.SalaryList@6e734cb5, com.ehr.model.SalaryList@1e50d09f, com.ehr.model.SalaryList@72fbf770, com.ehr.model.SalaryList@6a7956c5, com.ehr.model.SalaryList@1e1ba9db, com.ehr.model.SalaryList@6d756af, com.ehr.model.SalaryList@2b3a6172], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=473, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=473, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@b55c5ae, com.ehr.model.SalaryList@48c3e06e, com.ehr.model.SalaryList@741db5f7, com.ehr.model.SalaryList@c547bf7, com.ehr.model.SalaryList@2989b766, com.ehr.model.SalaryList@7e9ef2a9, com.ehr.model.SalaryList@67b54280, com.ehr.model.SalaryList@48911642, com.ehr.model.SalaryList@2c47aab1, com.ehr.model.SalaryList@25c50e2a], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+930980 DEBUG [2019-06-28 22:49:35]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+930980 DEBUG [2019-06-28 22:49:35]  Successfully completed request
+930980 DEBUG [2019-06-28 22:49:35]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+987186 DEBUG [2019-06-28 22:50:31]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+987187 DEBUG [2019-06-28 22:50:31]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+987187 DEBUG [2019-06-28 22:50:31]  Looking up handler method for path /payroll/salarylist/salarylistList
+987188 DEBUG [2019-06-28 22:50:31]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+987188 DEBUG [2019-06-28 22:50:31]  Returning cached instance of singleton bean 'salaryListController'
+987188 DEBUG [2019-06-28 22:50:31]  Skip CORS processing: request is from same origin
+987189 DEBUG [2019-06-28 22:50:31]  Fetching JDBC Connection from DataSource
+987198 DEBUG [2019-06-28 22:50:31]  Fetching JDBC Connection from DataSource
+987209 DEBUG [2019-06-28 22:50:31]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=90, size=90, startRow=1, endRow=90, total=479, pages=6, list=Page{count=true, pageNum=1, pageSize=90, startRow=0, endRow=90, total=479, pages=6, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@608df15, com.ehr.model.SalaryList@7dca457f, com.ehr.model.SalaryList@119389ae, com.ehr.model.SalaryList@14729690, com.ehr.model.SalaryList@5442037c, com.ehr.model.SalaryList@7b8c5536, com.ehr.model.SalaryList@76df7d10, com.ehr.model.SalaryList@7619b34d, com.ehr.model.SalaryList@32041711, com.ehr.model.SalaryList@2b38c182, com.ehr.model.SalaryList@26021e08, com.ehr.model.SalaryList@1dba525e, com.ehr.model.SalaryList@f946267, com.ehr.model.SalaryList@62cd86c6, com.ehr.model.SalaryList@548926c9, com.ehr.model.SalaryList@1beeb6a4, com.ehr.model.SalaryList@37c578e4, com.ehr.model.SalaryList@3930336c, com.ehr.model.SalaryList@2412e5ed, com.ehr.model.SalaryList@4aa73c5d, com.ehr.model.SalaryList@56b96fb5, com.ehr.model.SalaryList@6eaa9d5d, com.ehr.model.SalaryList@5da430e8, com.ehr.model.SalaryList@2e92bad5, com.ehr.model.SalaryList@33cbac75, com.ehr.model.SalaryList@9319f24, com.ehr.model.SalaryList@75eedd9a, com.ehr.model.SalaryList@4e9185e0, com.ehr.model.SalaryList@20572043, com.ehr.model.SalaryList@259a53d2, com.ehr.model.SalaryList@269b58f6, com.ehr.model.SalaryList@64e76740, com.ehr.model.SalaryList@7d2b16a7, com.ehr.model.SalaryList@ad8de13, com.ehr.model.SalaryList@76787b56, com.ehr.model.SalaryList@297acfbe, com.ehr.model.SalaryList@cc16a18, com.ehr.model.SalaryList@40a515d5, com.ehr.model.SalaryList@75b2645c, com.ehr.model.SalaryList@aca526b, com.ehr.model.SalaryList@ddc6880, com.ehr.model.SalaryList@653fcf53, com.ehr.model.SalaryList@349d72c, com.ehr.model.SalaryList@5b489424, com.ehr.model.SalaryList@35be7fa5, com.ehr.model.SalaryList@2e607b16, com.ehr.model.SalaryList@635d3941, com.ehr.model.SalaryList@7c2b78ba, com.ehr.model.SalaryList@3a2e63cd, com.ehr.model.SalaryList@17bb1755, com.ehr.model.SalaryList@1d26b3d2, com.ehr.model.SalaryList@3aeff664, com.ehr.model.SalaryList@7396caff, com.ehr.model.SalaryList@3c587a67, com.ehr.model.SalaryList@14c8f61d, com.ehr.model.SalaryList@51d16e36, com.ehr.model.SalaryList@14d587c1, com.ehr.model.SalaryList@6b214c7e, com.ehr.model.SalaryList@388a2719, com.ehr.model.SalaryList@62704ee0, com.ehr.model.SalaryList@5a2336e0, com.ehr.model.SalaryList@3b00c366, com.ehr.model.SalaryList@525b99f0, com.ehr.model.SalaryList@323cca15, com.ehr.model.SalaryList@71eb7e84, com.ehr.model.SalaryList@4ccd882c, com.ehr.model.SalaryList@42571c5c, com.ehr.model.SalaryList@166f0a61, com.ehr.model.SalaryList@3cda5976, com.ehr.model.SalaryList@1cf63a29, com.ehr.model.SalaryList@66396017, com.ehr.model.SalaryList@8eb42b3, com.ehr.model.SalaryList@6614bb31, com.ehr.model.SalaryList@4b1ef2a8, com.ehr.model.SalaryList@660a0a04, com.ehr.model.SalaryList@34a632ac, com.ehr.model.SalaryList@7728da3a, com.ehr.model.SalaryList@4b9ffdc5, com.ehr.model.SalaryList@7d739498, com.ehr.model.SalaryList@78c5fac8, com.ehr.model.SalaryList@498d16e0, com.ehr.model.SalaryList@7dc8bbc1, com.ehr.model.SalaryList@1cfe37b4, com.ehr.model.SalaryList@4b3a8d59, com.ehr.model.SalaryList@6a21a8c8, com.ehr.model.SalaryList@520f00fe, com.ehr.model.SalaryList@3f21de9c, com.ehr.model.SalaryList@20eecc64, com.ehr.model.SalaryList@47ee5759, com.ehr.model.SalaryList@6dccb7aa], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=6, navigatepageNums=[1, 2, 3, 4, 5, 6]}, count=PageInfo{pageNum=1, pageSize=90, size=90, startRow=1, endRow=90, total=479, pages=6, list=Page{count=true, pageNum=1, pageSize=90, startRow=0, endRow=90, total=479, pages=6, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@5c2841b1, com.ehr.model.SalaryList@a733bbc, com.ehr.model.SalaryList@3f92f134, com.ehr.model.SalaryList@376b708b, com.ehr.model.SalaryList@29d09a1e, com.ehr.model.SalaryList@3aedfa43, com.ehr.model.SalaryList@12deb77b, com.ehr.model.SalaryList@7e5d7283, com.ehr.model.SalaryList@5370173c, com.ehr.model.SalaryList@61ac0f3, com.ehr.model.SalaryList@6198ca24, com.ehr.model.SalaryList@74c475fe, com.ehr.model.SalaryList@27de45ad, com.ehr.model.SalaryList@771314fd, com.ehr.model.SalaryList@50fd39d1, com.ehr.model.SalaryList@7c1ddb5, com.ehr.model.SalaryList@526703cd, com.ehr.model.SalaryList@3d3c4180, com.ehr.model.SalaryList@4b6d447, com.ehr.model.SalaryList@d938d11, com.ehr.model.SalaryList@67809e05, com.ehr.model.SalaryList@38efe334, com.ehr.model.SalaryList@a491c82, com.ehr.model.SalaryList@1b23f3df, com.ehr.model.SalaryList@78303608, com.ehr.model.SalaryList@3f818c79, com.ehr.model.SalaryList@7dee2a07, com.ehr.model.SalaryList@7957836e, com.ehr.model.SalaryList@2e6a3a, com.ehr.model.SalaryList@33ffcc02, com.ehr.model.SalaryList@3fcd6668, com.ehr.model.SalaryList@7ac4ce0c, com.ehr.model.SalaryList@9c814d4, com.ehr.model.SalaryList@449a4633, com.ehr.model.SalaryList@10b096ee, com.ehr.model.SalaryList@4cd89e5a, com.ehr.model.SalaryList@57f4da1, com.ehr.model.SalaryList@134228e3, com.ehr.model.SalaryList@751cb83, com.ehr.model.SalaryList@ff3af7d, com.ehr.model.SalaryList@709ee967, com.ehr.model.SalaryList@7299c2a7, com.ehr.model.SalaryList@7b1d02a4, com.ehr.model.SalaryList@6987c2fd, com.ehr.model.SalaryList@6e55cb7b, com.ehr.model.SalaryList@52e5b0ec, com.ehr.model.SalaryList@417e9036, com.ehr.model.SalaryList@16b932ce, com.ehr.model.SalaryList@56773d71, com.ehr.model.SalaryList@296a8583, com.ehr.model.SalaryList@1ca05fb8, com.ehr.model.SalaryList@43d031a0, com.ehr.model.SalaryList@2ca3101e, com.ehr.model.SalaryList@5198de94, com.ehr.model.SalaryList@4fdb0680, com.ehr.model.SalaryList@d4473ea, com.ehr.model.SalaryList@39d3b1bc, com.ehr.model.SalaryList@2ea8b46c, com.ehr.model.SalaryList@3950483f, com.ehr.model.SalaryList@17a5a7dc, com.ehr.model.SalaryList@33dfbac5, com.ehr.model.SalaryList@583f7306, com.ehr.model.SalaryList@6315d98e, com.ehr.model.SalaryList@59340977, com.ehr.model.SalaryList@17738906, com.ehr.model.SalaryList@34777fad, com.ehr.model.SalaryList@79630904, com.ehr.model.SalaryList@65d8ee, com.ehr.model.SalaryList@b554a5d, com.ehr.model.SalaryList@450c68d, com.ehr.model.SalaryList@659ac42a, com.ehr.model.SalaryList@4b96d2df, com.ehr.model.SalaryList@6ab07e52, com.ehr.model.SalaryList@6856b927, com.ehr.model.SalaryList@5bde8b93, com.ehr.model.SalaryList@2623ba1d, com.ehr.model.SalaryList@4f881265, com.ehr.model.SalaryList@124a1532, com.ehr.model.SalaryList@3de796fb, com.ehr.model.SalaryList@62f2008, com.ehr.model.SalaryList@9bb1192, com.ehr.model.SalaryList@4b9a7612, com.ehr.model.SalaryList@4a4b71d4, com.ehr.model.SalaryList@359b37f5, com.ehr.model.SalaryList@647d9755, com.ehr.model.SalaryList@7c4f572e, com.ehr.model.SalaryList@6d9b4ca2, com.ehr.model.SalaryList@1d3fa7b, com.ehr.model.SalaryList@99c022b, com.ehr.model.SalaryList@f6cc211], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=6, navigatepageNums=[1, 2, 3, 4, 5, 6]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+987227 DEBUG [2019-06-28 22:50:31]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+987227 DEBUG [2019-06-28 22:50:31]  Successfully completed request
+987227 DEBUG [2019-06-28 22:50:31]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
+992328 DEBUG [2019-06-28 22:50:36]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1997a2de
+992329 DEBUG [2019-06-28 22:50:36]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylist/salarylistList]
+992329 DEBUG [2019-06-28 22:50:36]  Looking up handler method for path /payroll/salarylist/salarylistList
+992329 DEBUG [2019-06-28 22:50:36]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryListController.salarylistList(java.lang.Integer,java.lang.Integer)]
+992329 DEBUG [2019-06-28 22:50:36]  Returning cached instance of singleton bean 'salaryListController'
+992330 DEBUG [2019-06-28 22:50:36]  Skip CORS processing: request is from same origin
+992331 DEBUG [2019-06-28 22:50:36]  Fetching JDBC Connection from DataSource
+992335 DEBUG [2019-06-28 22:50:36]  Fetching JDBC Connection from DataSource
+992339 DEBUG [2019-06-28 22:50:36]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=479, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=479, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@59214015, com.ehr.model.SalaryList@20fbbe03, com.ehr.model.SalaryList@760b072d, com.ehr.model.SalaryList@26c8f16e, com.ehr.model.SalaryList@75ba2c4a, com.ehr.model.SalaryList@8cc9f58, com.ehr.model.SalaryList@2650d303, com.ehr.model.SalaryList@47f21526, com.ehr.model.SalaryList@630ea9ee, com.ehr.model.SalaryList@fd4dc88], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=479, pages=48, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=479, pages=48, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryList@2fbcdeba, com.ehr.model.SalaryList@78b0b54e, com.ehr.model.SalaryList@6e67326f, com.ehr.model.SalaryList@47fe93b7, com.ehr.model.SalaryList@efeccfc, com.ehr.model.SalaryList@739902a8, com.ehr.model.SalaryList@243aa2fe, com.ehr.model.SalaryList@176afee5, com.ehr.model.SalaryList@6f8b59d8, com.ehr.model.SalaryList@543c8ac3], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=8, navigatepageNums=[1, 2, 3, 4, 5, 6, 7, 8]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@322f5ed2]
+992339 DEBUG [2019-06-28 22:50:36]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+992339 DEBUG [2019-06-28 22:50:36]  Successfully completed request
+992339 DEBUG [2019-06-28 22:50:36]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1997a2de
