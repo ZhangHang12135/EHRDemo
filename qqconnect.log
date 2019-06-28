@@ -1,50 +1,279 @@
-6963293 ERROR [2019-06-27 11:21:09]  Application run failed
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'socialController' defined in file [D:\JEE_code\Java\ehrDemo - Copy\target\classes\com\ehr\controller\payroll\SocialController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ehr.controller.payroll.SocialController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	SocialService cannot be resolved to a type
-	SocialService cannot be resolved to a type
-	SocialService cannot be resolved to a type
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1228)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1127)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:762)
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:881)
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1242)
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1230)
-	at com.ehr.RunApp.main(RunApp.java:13)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.ehr.controller.payroll.SocialController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	SocialService cannot be resolved to a type
-	SocialService cannot be resolved to a type
-	SocialService cannot be resolved to a type
-
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1220)
-	... 22 more
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	SocialService cannot be resolved to a type
-	SocialService cannot be resolved to a type
-	SocialService cannot be resolved to a type
-
-	at com.ehr.controller.payroll.SocialController.<init>(SocialController.java:16)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
-	... 24 more
+950769 DEBUG [2019-06-28 09:57:53]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+950816 DEBUG [2019-06-28 09:57:53]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+950817 DEBUG [2019-06-28 09:57:53]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+950817 DEBUG [2019-06-28 09:57:53]  Looking up handler method for path /payroll/social/socialList
+950817 DEBUG [2019-06-28 09:57:53]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+950817 DEBUG [2019-06-28 09:57:53]  Returning cached instance of singleton bean 'socialController'
+950818 DEBUG [2019-06-28 09:57:53]  Skip CORS processing: request is from same origin
+950819 DEBUG [2019-06-28 09:57:53]  Fetching JDBC Connection from DataSource
+950824 DEBUG [2019-06-28 09:57:53]  Fetching JDBC Connection from DataSource
+950828 DEBUG [2019-06-28 09:57:53]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=15, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=15, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@227b6bed, com.ehr.model.Social@5f6c382, com.ehr.model.Social@267113dc, com.ehr.model.Social@34065963, com.ehr.model.Social@4d5b680d, com.ehr.model.Social@7e8248f7, com.ehr.model.Social@50434b08, com.ehr.model.Social@5608dd22, com.ehr.model.Social@4005ccee, com.ehr.model.Social@2c2cf1e9], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=15, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=15, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@66fdf46f, com.ehr.model.Social@760cd45f, com.ehr.model.Social@180004cc, com.ehr.model.Social@53681d9c, com.ehr.model.Social@5abfd512, com.ehr.model.Social@4a015c36, com.ehr.model.Social@523f17de, com.ehr.model.Social@412864f8, com.ehr.model.Social@659b2e8a, com.ehr.model.Social@253b2ee3], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+950828 DEBUG [2019-06-28 09:57:53]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+950828 DEBUG [2019-06-28 09:57:53]  Successfully completed request
+950828 DEBUG [2019-06-28 09:57:53]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+950844 DEBUG [2019-06-28 09:57:53]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+950847 DEBUG [2019-06-28 09:57:53]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/favicon.ico]
+950847 DEBUG [2019-06-28 09:57:53]  Matching patterns for request [/favicon.ico] are [/**/favicon.ico]
+950847 DEBUG [2019-06-28 09:57:53]  URI Template variables for request [/favicon.ico] are {}
+950847 DEBUG [2019-06-28 09:57:53]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@d5b1633]]] and 1 interceptor
+950847 DEBUG [2019-06-28 09:57:53]  Last-Modified value for [/favicon.ico] is: -1
+950854 DEBUG [2019-06-28 09:57:53]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+950854 DEBUG [2019-06-28 09:57:53]  Successfully completed request
+950855 DEBUG [2019-06-28 09:57:53]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+954086 DEBUG [2019-06-28 09:57:56]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+954086 DEBUG [2019-06-28 09:57:56]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/deletesocial]
+954086 DEBUG [2019-06-28 09:57:56]  Looking up handler method for path /payroll/social/deletesocial
+954087 DEBUG [2019-06-28 09:57:56]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.deleteASocial(java.lang.Integer)]
+954087 DEBUG [2019-06-28 09:57:56]  Returning cached instance of singleton bean 'socialController'
+954087 DEBUG [2019-06-28 09:57:56]  Skip CORS processing: request is from same origin
+954088 DEBUG [2019-06-28 09:57:56]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+954088 DEBUG [2019-06-28 09:57:56]  Fetching JDBC Connection from DataSource
+954088 DEBUG [2019-06-28 09:57:56]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/deletesocial]
+954088 DEBUG [2019-06-28 09:57:56]  Looking up handler method for path /payroll/social/deletesocial
+954089 DEBUG [2019-06-28 09:57:56]  Fetching JDBC Connection from DataSource
+954090 DEBUG [2019-06-28 09:57:56]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.deleteASocial(java.lang.Integer)]
+954091 DEBUG [2019-06-28 09:57:56]  Returning cached instance of singleton bean 'socialController'
+954091 DEBUG [2019-06-28 09:57:56]  Skip CORS processing: request is from same origin
+954091 DEBUG [2019-06-28 09:57:56]  Fetching JDBC Connection from DataSource
+954101 DEBUG [2019-06-28 09:57:56]  Fetching JDBC Connection from DataSource
+954154 DEBUG [2019-06-28 09:57:56]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+954154 DEBUG [2019-06-28 09:57:56]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+954155 DEBUG [2019-06-28 09:57:56]  Successfully completed request
+954155 DEBUG [2019-06-28 09:57:56]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+954166 DEBUG [2019-06-28 09:57:56]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+954166 DEBUG [2019-06-28 09:57:56]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/icon.png]
+954166 DEBUG [2019-06-28 09:57:56]  Looking up handler method for path /lib/layui/css/modules/layer/default/icon.png
+954166 DEBUG [2019-06-28 09:57:56]  Did not find handler method for [/lib/layui/css/modules/layer/default/icon.png]
+954166 DEBUG [2019-06-28 09:57:56]  Matching patterns for request [/lib/layui/css/modules/layer/default/icon.png] are [/**]
+954167 DEBUG [2019-06-28 09:57:56]  URI Template variables for request [/lib/layui/css/modules/layer/default/icon.png] are {}
+954167 DEBUG [2019-06-28 09:57:56]  Mapping [/lib/layui/css/modules/layer/default/icon.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5341f7e7]]] and 1 interceptor
+954167 DEBUG [2019-06-28 09:57:56]  Last-Modified value for [/lib/layui/css/modules/layer/default/icon.png] is: -1
+954172 DEBUG [2019-06-28 09:57:56]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+954172 DEBUG [2019-06-28 09:57:56]  Successfully completed request
+954173 DEBUG [2019-06-28 09:57:56]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+954184 DEBUG [2019-06-28 09:57:56]  Written [{msg=deleteOK}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+954185 DEBUG [2019-06-28 09:57:56]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+954185 DEBUG [2019-06-28 09:57:56]  Successfully completed request
+954185 DEBUG [2019-06-28 09:57:56]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+954191 DEBUG [2019-06-28 09:57:56]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+954191 DEBUG [2019-06-28 09:57:56]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+954191 DEBUG [2019-06-28 09:57:56]  Looking up handler method for path /payroll/social/socialList
+954191 DEBUG [2019-06-28 09:57:56]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+954191 DEBUG [2019-06-28 09:57:56]  Returning cached instance of singleton bean 'socialController'
+954192 DEBUG [2019-06-28 09:57:56]  Skip CORS processing: request is from same origin
+954194 DEBUG [2019-06-28 09:57:56]  Fetching JDBC Connection from DataSource
+954199 DEBUG [2019-06-28 09:57:56]  Fetching JDBC Connection from DataSource
+954204 DEBUG [2019-06-28 09:57:56]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@4000d41e, com.ehr.model.Social@22c91933, com.ehr.model.Social@60f1b1a8, com.ehr.model.Social@5d61da94, com.ehr.model.Social@1b874502, com.ehr.model.Social@716dd7c0, com.ehr.model.Social@1cfc54b4, com.ehr.model.Social@4f9a88c5, com.ehr.model.Social@6e947b61, com.ehr.model.Social@715862a4], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@f7fd1cf, com.ehr.model.Social@1438bc45, com.ehr.model.Social@593a82d0, com.ehr.model.Social@6b458611, com.ehr.model.Social@1ac5d31f, com.ehr.model.Social@4bce9e96, com.ehr.model.Social@466fa93d, com.ehr.model.Social@15ddaef, com.ehr.model.Social@3534acf0, com.ehr.model.Social@ab1beee], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+954205 DEBUG [2019-06-28 09:57:56]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+954205 DEBUG [2019-06-28 09:57:56]  Successfully completed request
+954205 DEBUG [2019-06-28 09:57:56]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+954246 DEBUG [2019-06-28 09:57:57]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+954247 DEBUG [2019-06-28 09:57:57]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+954247 DEBUG [2019-06-28 09:57:57]  Looking up handler method for path /payroll/social/socialList
+954247 DEBUG [2019-06-28 09:57:57]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+954247 DEBUG [2019-06-28 09:57:57]  Returning cached instance of singleton bean 'socialController'
+954248 DEBUG [2019-06-28 09:57:57]  Skip CORS processing: request is from same origin
+954250 DEBUG [2019-06-28 09:57:57]  Fetching JDBC Connection from DataSource
+954255 DEBUG [2019-06-28 09:57:57]  Fetching JDBC Connection from DataSource
+954259 DEBUG [2019-06-28 09:57:57]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@10fa851c, com.ehr.model.Social@5dae2109, com.ehr.model.Social@56f03c3e, com.ehr.model.Social@4624aeba, com.ehr.model.Social@2321107, com.ehr.model.Social@2eb8ce21, com.ehr.model.Social@79fe0604, com.ehr.model.Social@1acc36ff, com.ehr.model.Social@864b688, com.ehr.model.Social@60c5a863], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@69025c59, com.ehr.model.Social@1282f448, com.ehr.model.Social@3fffd066, com.ehr.model.Social@72b4f14a, com.ehr.model.Social@9af8bd1, com.ehr.model.Social@c8a0e18, com.ehr.model.Social@4db7830f, com.ehr.model.Social@185c0552, com.ehr.model.Social@6d58f48b, com.ehr.model.Social@317eddf6], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+954259 DEBUG [2019-06-28 09:57:57]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+954259 DEBUG [2019-06-28 09:57:57]  Successfully completed request
+954259 DEBUG [2019-06-28 09:57:57]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+957818 DEBUG [2019-06-28 09:58:00]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+957818 DEBUG [2019-06-28 09:58:00]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+957818 DEBUG [2019-06-28 09:58:00]  Looking up handler method for path /payroll/social/socialList
+957819 DEBUG [2019-06-28 09:58:00]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+957819 DEBUG [2019-06-28 09:58:00]  Returning cached instance of singleton bean 'socialController'
+957819 DEBUG [2019-06-28 09:58:00]  Skip CORS processing: request is from same origin
+957821 DEBUG [2019-06-28 09:58:00]  Fetching JDBC Connection from DataSource
+957825 DEBUG [2019-06-28 09:58:00]  Fetching JDBC Connection from DataSource
+957828 DEBUG [2019-06-28 09:58:00]  Written [{code=0, data=PageInfo{pageNum=2, pageSize=10, size=3, startRow=11, endRow=13, total=13, pages=2, list=Page{count=true, pageNum=2, pageSize=10, startRow=10, endRow=20, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@4e9db603, com.ehr.model.Social@3c956fc7, com.ehr.model.Social@59c5cf84], prePage=1, nextPage=0, isFirstPage=false, isLastPage=true, hasPreviousPage=true, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=2, pageSize=10, size=3, startRow=11, endRow=13, total=13, pages=2, list=Page{count=true, pageNum=2, pageSize=10, startRow=10, endRow=20, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@156b77d1, com.ehr.model.Social@36e5f6d1, com.ehr.model.Social@21195c9d], prePage=1, nextPage=0, isFirstPage=false, isLastPage=true, hasPreviousPage=true, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+957828 DEBUG [2019-06-28 09:58:00]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+957828 DEBUG [2019-06-28 09:58:00]  Successfully completed request
+957828 DEBUG [2019-06-28 09:58:00]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+959599 DEBUG [2019-06-28 09:58:02]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+959599 DEBUG [2019-06-28 09:58:02]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+959600 DEBUG [2019-06-28 09:58:02]  Looking up handler method for path /payroll/social/socialList
+959600 DEBUG [2019-06-28 09:58:02]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+959600 DEBUG [2019-06-28 09:58:02]  Returning cached instance of singleton bean 'socialController'
+959600 DEBUG [2019-06-28 09:58:02]  Skip CORS processing: request is from same origin
+959602 DEBUG [2019-06-28 09:58:02]  Fetching JDBC Connection from DataSource
+959606 DEBUG [2019-06-28 09:58:02]  Fetching JDBC Connection from DataSource
+959610 DEBUG [2019-06-28 09:58:02]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@4fb9dfd0, com.ehr.model.Social@4efe4762, com.ehr.model.Social@26b6a45, com.ehr.model.Social@6e88379c, com.ehr.model.Social@6f4e32c2, com.ehr.model.Social@5337ad1e, com.ehr.model.Social@ad7cc7f, com.ehr.model.Social@254c2e6e, com.ehr.model.Social@3b8ac027, com.ehr.model.Social@55bbd515], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@61bb4fe9, com.ehr.model.Social@254022ee, com.ehr.model.Social@48264599, com.ehr.model.Social@433e22f5, com.ehr.model.Social@7841e97c, com.ehr.model.Social@5cb2f3c8, com.ehr.model.Social@26c27f4a, com.ehr.model.Social@1459d8ed, com.ehr.model.Social@63a4c913, com.ehr.model.Social@28435a1c], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+959611 DEBUG [2019-06-28 09:58:02]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+959611 DEBUG [2019-06-28 09:58:02]  Successfully completed request
+959611 DEBUG [2019-06-28 09:58:02]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+975148 DEBUG [2019-06-28 09:58:17]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+975149 DEBUG [2019-06-28 09:58:17]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/]
+975149 DEBUG [2019-06-28 09:58:17]  Looking up handler method for path /payroll/social/
+975149 DEBUG [2019-06-28 09:58:17]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SocialController.social()]
+975149 DEBUG [2019-06-28 09:58:17]  Returning cached instance of singleton bean 'socialController'
+975149 DEBUG [2019-06-28 09:58:17]  Last-Modified value for [/payroll/social/] is: -1
+975151 DEBUG [2019-06-28 09:58:17]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+975151 DEBUG [2019-06-28 09:58:17]  No matching bean found for view name '/Payroll/social/social'
+975151 DEBUG [2019-06-28 09:58:17]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/social/social'; URL [/WEB-INF/View//Payroll/social/social.jsp]] based on requested media type 'text/html'
+975151 DEBUG [2019-06-28 09:58:17]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/social/social'; URL [/WEB-INF/View//Payroll/social/social.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+975151 DEBUG [2019-06-28 09:58:17]  Forwarding to resource [/WEB-INF/View//Payroll/social/social.jsp] in InternalResourceView '/Payroll/social/social'
+975155 DEBUG [2019-06-28 09:58:17]  Successfully completed request
+975155 DEBUG [2019-06-28 09:58:17]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+975184 DEBUG [2019-06-28 09:58:17]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+975184 DEBUG [2019-06-28 09:58:17]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/socialApi.js]
+975185 DEBUG [2019-06-28 09:58:17]  Looking up handler method for path /payroll/social/socialApi.js
+975187 DEBUG [2019-06-28 09:58:17]  Did not find handler method for [/payroll/social/socialApi.js]
+975187 DEBUG [2019-06-28 09:58:17]  Matching patterns for request [/payroll/social/socialApi.js] are [/**]
+975187 DEBUG [2019-06-28 09:58:17]  URI Template variables for request [/payroll/social/socialApi.js] are {}
+975187 DEBUG [2019-06-28 09:58:17]  Mapping [/payroll/social/socialApi.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5341f7e7]]] and 1 interceptor
+975187 DEBUG [2019-06-28 09:58:17]  Last-Modified value for [/payroll/social/socialApi.js] is: -1
+975193 DEBUG [2019-06-28 09:58:17]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+975193 DEBUG [2019-06-28 09:58:17]  Successfully completed request
+975193 DEBUG [2019-06-28 09:58:17]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+975359 DEBUG [2019-06-28 09:58:18]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+975359 DEBUG [2019-06-28 09:58:18]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+975359 DEBUG [2019-06-28 09:58:18]  Looking up handler method for path /payroll/social/socialList
+975360 DEBUG [2019-06-28 09:58:18]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+975360 DEBUG [2019-06-28 09:58:18]  Returning cached instance of singleton bean 'socialController'
+975360 DEBUG [2019-06-28 09:58:18]  Skip CORS processing: request is from same origin
+975361 DEBUG [2019-06-28 09:58:18]  Fetching JDBC Connection from DataSource
+975369 DEBUG [2019-06-28 09:58:18]  Fetching JDBC Connection from DataSource
+975373 DEBUG [2019-06-28 09:58:18]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@df26fa6, com.ehr.model.Social@8fb202d, com.ehr.model.Social@7e2b2f22, com.ehr.model.Social@7aeb5a6, com.ehr.model.Social@19bf65aa, com.ehr.model.Social@4894c4f8, com.ehr.model.Social@6fe1a0f7, com.ehr.model.Social@1d902b28, com.ehr.model.Social@7f608f05, com.ehr.model.Social@113d3715], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@73b9dbdd, com.ehr.model.Social@6fec67e9, com.ehr.model.Social@148fd5b6, com.ehr.model.Social@6c72cdad, com.ehr.model.Social@512894cd, com.ehr.model.Social@5df7622e, com.ehr.model.Social@37bf2e43, com.ehr.model.Social@4d5a92bc, com.ehr.model.Social@58c1f926, com.ehr.model.Social@3ec11602], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+975373 DEBUG [2019-06-28 09:58:18]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+975374 DEBUG [2019-06-28 09:58:18]  Successfully completed request
+975374 DEBUG [2019-06-28 09:58:18]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+975378 DEBUG [2019-06-28 09:58:18]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+975378 DEBUG [2019-06-28 09:58:18]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/favicon.ico]
+975378 DEBUG [2019-06-28 09:58:18]  Matching patterns for request [/favicon.ico] are [/**/favicon.ico]
+975378 DEBUG [2019-06-28 09:58:18]  URI Template variables for request [/favicon.ico] are {}
+975378 DEBUG [2019-06-28 09:58:18]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@d5b1633]]] and 1 interceptor
+975378 DEBUG [2019-06-28 09:58:18]  Last-Modified value for [/favicon.ico] is: -1
+975382 DEBUG [2019-06-28 09:58:18]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+975382 DEBUG [2019-06-28 09:58:18]  Successfully completed request
+975383 DEBUG [2019-06-28 09:58:18]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+1000892 DEBUG [2019-06-28 09:58:43]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+1000892 DEBUG [2019-06-28 09:58:43]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/]
+1000892 DEBUG [2019-06-28 09:58:43]  Looking up handler method for path /payroll/social/
+1000894 DEBUG [2019-06-28 09:58:43]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SocialController.social()]
+1000894 DEBUG [2019-06-28 09:58:43]  Returning cached instance of singleton bean 'socialController'
+1000894 DEBUG [2019-06-28 09:58:43]  Last-Modified value for [/payroll/social/] is: -1
+1000894 DEBUG [2019-06-28 09:58:43]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+1000895 DEBUG [2019-06-28 09:58:43]  No matching bean found for view name '/Payroll/social/social'
+1000895 DEBUG [2019-06-28 09:58:43]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/social/social'; URL [/WEB-INF/View//Payroll/social/social.jsp]] based on requested media type 'text/html'
+1000895 DEBUG [2019-06-28 09:58:43]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/social/social'; URL [/WEB-INF/View//Payroll/social/social.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+1000895 DEBUG [2019-06-28 09:58:43]  Forwarding to resource [/WEB-INF/View//Payroll/social/social.jsp] in InternalResourceView '/Payroll/social/social'
+1000897 DEBUG [2019-06-28 09:58:43]  Successfully completed request
+1000897 DEBUG [2019-06-28 09:58:43]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+1000947 DEBUG [2019-06-28 09:58:43]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+1000948 DEBUG [2019-06-28 09:58:43]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/socialApi.js]
+1000948 DEBUG [2019-06-28 09:58:43]  Looking up handler method for path /payroll/social/socialApi.js
+1000948 DEBUG [2019-06-28 09:58:43]  Did not find handler method for [/payroll/social/socialApi.js]
+1000948 DEBUG [2019-06-28 09:58:43]  Matching patterns for request [/payroll/social/socialApi.js] are [/**]
+1000948 DEBUG [2019-06-28 09:58:43]  URI Template variables for request [/payroll/social/socialApi.js] are {}
+1000948 DEBUG [2019-06-28 09:58:43]  Mapping [/payroll/social/socialApi.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5341f7e7]]] and 1 interceptor
+1000948 DEBUG [2019-06-28 09:58:43]  Last-Modified value for [/payroll/social/socialApi.js] is: -1
+1000952 DEBUG [2019-06-28 09:58:43]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1000952 DEBUG [2019-06-28 09:58:43]  Successfully completed request
+1000952 DEBUG [2019-06-28 09:58:43]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+1001149 DEBUG [2019-06-28 09:58:43]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+1001149 DEBUG [2019-06-28 09:58:43]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+1001150 DEBUG [2019-06-28 09:58:43]  Looking up handler method for path /payroll/social/socialList
+1001150 DEBUG [2019-06-28 09:58:43]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+1001150 DEBUG [2019-06-28 09:58:43]  Returning cached instance of singleton bean 'socialController'
+1001150 DEBUG [2019-06-28 09:58:43]  Skip CORS processing: request is from same origin
+1001151 DEBUG [2019-06-28 09:58:43]  Fetching JDBC Connection from DataSource
+1001156 DEBUG [2019-06-28 09:58:43]  Fetching JDBC Connection from DataSource
+1001160 DEBUG [2019-06-28 09:58:43]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@459b6ffb, com.ehr.model.Social@27765853, com.ehr.model.Social@6e206a4c, com.ehr.model.Social@7800518e, com.ehr.model.Social@66fa0dc2, com.ehr.model.Social@73db758e, com.ehr.model.Social@1e4413b3, com.ehr.model.Social@64b2bdd4, com.ehr.model.Social@5290389d, com.ehr.model.Social@7acf5044], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@44281d25, com.ehr.model.Social@35854469, com.ehr.model.Social@6682c694, com.ehr.model.Social@664ff770, com.ehr.model.Social@620a1fa9, com.ehr.model.Social@7db3b98d, com.ehr.model.Social@d7566c9, com.ehr.model.Social@1418e460, com.ehr.model.Social@26dd561d, com.ehr.model.Social@4642ec9a], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+1001160 DEBUG [2019-06-28 09:58:43]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1001160 DEBUG [2019-06-28 09:58:43]  Successfully completed request
+1001160 DEBUG [2019-06-28 09:58:43]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+1001233 DEBUG [2019-06-28 09:58:43]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+1001234 DEBUG [2019-06-28 09:58:43]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/favicon.ico]
+1001234 DEBUG [2019-06-28 09:58:43]  Matching patterns for request [/favicon.ico] are [/**/favicon.ico]
+1001234 DEBUG [2019-06-28 09:58:43]  URI Template variables for request [/favicon.ico] are {}
+1001234 DEBUG [2019-06-28 09:58:43]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@d5b1633]]] and 1 interceptor
+1001234 DEBUG [2019-06-28 09:58:43]  Last-Modified value for [/favicon.ico] is: -1
+1001240 DEBUG [2019-06-28 09:58:44]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1001240 DEBUG [2019-06-28 09:58:44]  Successfully completed request
+1001240 DEBUG [2019-06-28 09:58:44]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+1041171 DEBUG [2019-06-28 09:59:23]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041171 DEBUG [2019-06-28 09:59:23]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/]
+1041171 DEBUG [2019-06-28 09:59:23]  Looking up handler method for path /payroll/social/
+1041172 DEBUG [2019-06-28 09:59:23]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SocialController.social()]
+1041172 DEBUG [2019-06-28 09:59:23]  Returning cached instance of singleton bean 'socialController'
+1041172 DEBUG [2019-06-28 09:59:23]  Last-Modified value for [/payroll/social/] is: -1
+1041178 DEBUG [2019-06-28 09:59:23]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+1041178 DEBUG [2019-06-28 09:59:23]  No matching bean found for view name '/Payroll/social/social'
+1041178 DEBUG [2019-06-28 09:59:23]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/social/social'; URL [/WEB-INF/View//Payroll/social/social.jsp]] based on requested media type 'text/html'
+1041178 DEBUG [2019-06-28 09:59:23]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/social/social'; URL [/WEB-INF/View//Payroll/social/social.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+1041178 DEBUG [2019-06-28 09:59:23]  Forwarding to resource [/WEB-INF/View//Payroll/social/social.jsp] in InternalResourceView '/Payroll/social/social'
+1041209 DEBUG [2019-06-28 09:59:23]  Successfully completed request
+1041209 DEBUG [2019-06-28 09:59:23]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041549 DEBUG [2019-06-28 09:59:24]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041549 DEBUG [2019-06-28 09:59:24]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/socialApi.js]
+1041549 DEBUG [2019-06-28 09:59:24]  Looking up handler method for path /payroll/social/socialApi.js
+1041550 DEBUG [2019-06-28 09:59:24]  Did not find handler method for [/payroll/social/socialApi.js]
+1041550 DEBUG [2019-06-28 09:59:24]  Matching patterns for request [/payroll/social/socialApi.js] are [/**]
+1041550 DEBUG [2019-06-28 09:59:24]  URI Template variables for request [/payroll/social/socialApi.js] are {}
+1041550 DEBUG [2019-06-28 09:59:24]  Mapping [/payroll/social/socialApi.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5341f7e7]]] and 1 interceptor
+1041550 DEBUG [2019-06-28 09:59:24]  Last-Modified value for [/payroll/social/socialApi.js] is: -1
+1041557 DEBUG [2019-06-28 09:59:24]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1041558 DEBUG [2019-06-28 09:59:24]  Successfully completed request
+1041558 DEBUG [2019-06-28 09:59:24]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041744 DEBUG [2019-06-28 09:59:24]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041745 DEBUG [2019-06-28 09:59:24]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/favicon.ico]
+1041745 DEBUG [2019-06-28 09:59:24]  Matching patterns for request [/favicon.ico] are [/**/favicon.ico]
+1041745 DEBUG [2019-06-28 09:59:24]  URI Template variables for request [/favicon.ico] are {}
+1041745 DEBUG [2019-06-28 09:59:24]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@d5b1633]]] and 1 interceptor
+1041745 DEBUG [2019-06-28 09:59:24]  Last-Modified value for [/favicon.ico] is: -1
+1041752 DEBUG [2019-06-28 09:59:24]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1041752 DEBUG [2019-06-28 09:59:24]  Successfully completed request
+1041752 DEBUG [2019-06-28 09:59:24]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041773 DEBUG [2019-06-28 09:59:24]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+1041773 DEBUG [2019-06-28 09:59:24]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/social/socialList]
+1041773 DEBUG [2019-06-28 09:59:24]  Looking up handler method for path /payroll/social/socialList
+1041773 DEBUG [2019-06-28 09:59:24]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SocialController.socialList(java.lang.Integer,java.lang.Integer)]
+1041773 DEBUG [2019-06-28 09:59:24]  Returning cached instance of singleton bean 'socialController'
+1041774 DEBUG [2019-06-28 09:59:24]  Skip CORS processing: request is from same origin
+1041776 DEBUG [2019-06-28 09:59:24]  Fetching JDBC Connection from DataSource
+1041781 DEBUG [2019-06-28 09:59:24]  Fetching JDBC Connection from DataSource
+1041785 DEBUG [2019-06-28 09:59:24]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@1133f967, com.ehr.model.Social@5af1662b, com.ehr.model.Social@944586a, com.ehr.model.Social@2aa18257, com.ehr.model.Social@24d7aea5, com.ehr.model.Social@7546542a, com.ehr.model.Social@5e6ad5e0, com.ehr.model.Social@787f4740, com.ehr.model.Social@61446c6c, com.ehr.model.Social@26e4936a], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=13, pages=2, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=13, pages=2, reasonable=false, pageSizeZero=false}[com.ehr.model.Social@2ea99783, com.ehr.model.Social@2c6e9051, com.ehr.model.Social@6e8baebc, com.ehr.model.Social@6c761fc4, com.ehr.model.Social@e019846, com.ehr.model.Social@56357dcf, com.ehr.model.Social@65f8c7fb, com.ehr.model.Social@392c7cbf, com.ehr.model.Social@3b6d1074, com.ehr.model.Social@464bd9d3], prePage=0, nextPage=2, isFirstPage=true, isLastPage=false, hasPreviousPage=false, hasNextPage=true, navigatePages=8, navigateFirstPage=1, navigateLastPage=2, navigatepageNums=[1, 2]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@38c78727]
+1041785 DEBUG [2019-06-28 09:59:24]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1041785 DEBUG [2019-06-28 09:59:24]  Successfully completed request
+1041785 DEBUG [2019-06-28 09:59:24]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+1053515 DEBUG [2019-06-28 09:59:36]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4d71d46d
+1053516 DEBUG [2019-06-28 09:59:36]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/social/socialAdd]
+1053516 DEBUG [2019-06-28 09:59:36]  Looking up handler method for path /payroll/social/socialAdd
+1053516 DEBUG [2019-06-28 09:59:36]  Did not find handler method for [/payroll/social/socialAdd]
+1053516 DEBUG [2019-06-28 09:59:36]  Matching patterns for request [/payroll/social/socialAdd] are [/**]
+1053517 DEBUG [2019-06-28 09:59:36]  URI Template variables for request [/payroll/social/socialAdd] are {}
+1053517 DEBUG [2019-06-28 09:59:36]  Mapping [/payroll/social/socialAdd] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5341f7e7]]] and 1 interceptor
+1053517 DEBUG [2019-06-28 09:59:36]  Last-Modified value for [/payroll/social/socialAdd] is: -1
+1053518 DEBUG [2019-06-28 09:59:36]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1053518 DEBUG [2019-06-28 09:59:36]  Successfully completed request
+1053518 DEBUG [2019-06-28 09:59:36]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4d71d46d
+1053519 DEBUG [2019-06-28 09:59:36]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/error]
+1053519 DEBUG [2019-06-28 09:59:36]  Looking up handler method for path /error
+1053521 DEBUG [2019-06-28 09:59:36]  Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+1053521 DEBUG [2019-06-28 09:59:36]  Returning cached instance of singleton bean 'basicErrorController'
+1053521 DEBUG [2019-06-28 09:59:36]  Last-Modified value for [/error] is: -1
+1053525 DEBUG [2019-06-28 09:59:36]  Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+1053527 DEBUG [2019-06-28 09:59:36]  Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
+1053527 DEBUG [2019-06-28 09:59:36]  Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
+1053530 DEBUG [2019-06-28 09:59:36]  Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+1053533 DEBUG [2019-06-28 09:59:36]  Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
+1053534 DEBUG [2019-06-28 09:59:36]  Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
+1053538 DEBUG [2019-06-28 09:59:36]  Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
+1053538 DEBUG [2019-06-28 09:59:36]  Returning cached instance of singleton bean 'error'
+1053539 DEBUG [2019-06-28 09:59:36]  Invoking afterPropertiesSet() on bean with name 'error'
+1053539 DEBUG [2019-06-28 09:59:36]  Returning [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@7fee8fff] based on requested media type 'text/html'
+1053539 DEBUG [2019-06-28 09:59:36]  Rendering view [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@7fee8fff] in DispatcherServlet with name 'dispatcherServlet'
+1053558 DEBUG [2019-06-28 09:59:36]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1da43aef
+1053558 DEBUG [2019-06-28 09:59:36]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/loading-1.gif]
+1053558 DEBUG [2019-06-28 09:59:36]  Looking up handler method for path /lib/layui/css/modules/layer/default/loading-1.gif
+1053558 DEBUG [2019-06-28 09:59:36]  Did not find handler method for [/lib/layui/css/modules/layer/default/loading-1.gif]
+1053558 DEBUG [2019-06-28 09:59:36]  Matching patterns for request [/lib/layui/css/modules/layer/default/loading-1.gif] are [/**]
+1053559 DEBUG [2019-06-28 09:59:36]  URI Template variables for request [/lib/layui/css/modules/layer/default/loading-1.gif] are {}
+1053559 DEBUG [2019-06-28 09:59:36]  Mapping [/lib/layui/css/modules/layer/default/loading-1.gif] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@5341f7e7]]] and 1 interceptor
+1053559 DEBUG [2019-06-28 09:59:36]  Last-Modified value for [/lib/layui/css/modules/layer/default/loading-1.gif] is: -1
+1053571 DEBUG [2019-06-28 09:59:36]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+1053571 DEBUG [2019-06-28 09:59:36]  Successfully completed request
+1053571 DEBUG [2019-06-28 09:59:36]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1da43aef
+1053687 DEBUG [2019-06-28 09:59:36]  Successfully completed request

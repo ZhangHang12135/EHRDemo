@@ -51,7 +51,7 @@
     -->
     select id, purchaseRate, logicToDelete
     from ehr_socialsecurity
-    where id = #{id,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER} and logicToDelete = 1
   </select>
   <select id="selectAll" resultMap="BaseResultMap">
     <!--
@@ -60,6 +60,7 @@
       This element was generated on Thu Jun 27 11:20:47 CST 2019.
     -->
     select id, purchaseRate, logicToDelete
-    from ehr_socialsecurity
+    from ehr_socialsecurity 
+    where logicToDelete = 1
   </select>
 </mapper>
