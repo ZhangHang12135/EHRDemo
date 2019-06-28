@@ -1,307 +1,192 @@
-1949894 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/css/layui.css] is: -1
-1949901 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1949902 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1949910 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950155 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950155 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/table.js]
-1950156 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/table.js
-1950156 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/table.js]
-1950156 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/table.js] are [/**]
-1950156 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/table.js] are {}
-1950156 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/table.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950156 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/table.js] is: -1
-1950159 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4c100a47
-1950160 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/font/iconfont.woff2]
-1950160 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/font/iconfont.woff2
-1950160 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/font/iconfont.woff2]
-1950160 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/font/iconfont.woff2] are [/**]
-1950160 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/font/iconfont.woff2] are {}
-1950160 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/font/iconfont.woff2] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950160 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/font/iconfont.woff2] is: -1
-1950160 DEBUG [2019-06-28 20:39:13]  Skip CORS processing: request is from same origin
-1950161 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950161 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950161 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950165 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950165 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950165 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4c100a47
-1950185 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4c100a47
-1950185 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/form.js]
-1950185 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/form.js
-1950186 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/form.js]
-1950186 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/form.js] are [/**]
-1950186 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/form.js] are {}
-1950186 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/form.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950186 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/form.js] is: -1
-1950189 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950189 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950189 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4c100a47
-1950231 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4c100a47
-1950232 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/laytpl.js]
-1950232 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/laytpl.js
-1950233 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/laytpl.js]
-1950233 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/laytpl.js] are [/**]
-1950233 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/laytpl.js] are {}
-1950233 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/laytpl.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950233 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/laytpl.js] is: -1
-1950234 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950235 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/layer.js]
-1950235 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/layer.js
-1950235 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/layer.js]
-1950235 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/layer.js] are [/**]
-1950235 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/layer.js] are {}
-1950235 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/layer.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950235 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/layer.js] is: -1
-1950237 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950238 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950238 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4c100a47
-1950240 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950240 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950240 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950260 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950260 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/laypage.js]
-1950260 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/laypage.js
-1950260 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/laypage.js]
-1950260 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/laypage.js] are [/**]
-1950260 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/laypage.js] are {}
-1950260 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/laypage.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950260 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/laypage.js] is: -1
-1950262 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4c100a47
-1950262 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/layer.css]
-1950262 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/css/modules/layer/default/layer.css
-1950263 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/css/modules/layer/default/layer.css]
-1950263 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/css/modules/layer/default/layer.css] are [/**]
-1950263 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/css/modules/layer/default/layer.css] are {}
-1950263 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/css/modules/layer/default/layer.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950263 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/css/modules/layer/default/layer.css] is: -1
-1950268 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950269 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950269 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950271 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950271 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/element.js]
-1950271 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/element.js
-1950272 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/element.js]
-1950272 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/element.js] are [/**]
-1950272 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/element.js] are {}
-1950272 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/element.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950272 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/element.js] is: -1
-1950275 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950278 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950280 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950280 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950280 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950280 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4c100a47
-1950289 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950289 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/util.js]
-1950289 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /lib/layui/lay/modules/util.js
-1950290 DEBUG [2019-06-28 20:39:13]  Did not find handler method for [/lib/layui/lay/modules/util.js]
-1950290 DEBUG [2019-06-28 20:39:13]  Matching patterns for request [/lib/layui/lay/modules/util.js] are [/**]
-1950290 DEBUG [2019-06-28 20:39:13]  URI Template variables for request [/lib/layui/lay/modules/util.js] are {}
-1950290 DEBUG [2019-06-28 20:39:13]  Mapping [/lib/layui/lay/modules/util.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1950290 DEBUG [2019-06-28 20:39:13]  Last-Modified value for [/lib/layui/lay/modules/util.js] is: -1
-1950294 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950294 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950294 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950369 DEBUG [2019-06-28 20:39:13]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950369 DEBUG [2019-06-28 20:39:13]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylever/salaryLeverList]
-1950369 DEBUG [2019-06-28 20:39:13]  Looking up handler method for path /payroll/salarylever/salaryLeverList
-1950369 DEBUG [2019-06-28 20:39:13]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryLeverController.salaryLeverList(java.lang.Integer,java.lang.Integer)]
-1950369 DEBUG [2019-06-28 20:39:13]  Returning cached instance of singleton bean 'salaryLeverController'
-1950369 DEBUG [2019-06-28 20:39:13]  Skip CORS processing: request is from same origin
-1950377 DEBUG [2019-06-28 20:39:13]  Fetching JDBC Connection from DataSource
-1950380 DEBUG [2019-06-28 20:39:13]  Fetching JDBC Connection from DataSource
-1950409 DEBUG [2019-06-28 20:39:13]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@5600a7b5, com.ehr.model.SalaryLever@41b2ff80, com.ehr.model.SalaryLever@4c907bea, com.ehr.model.SalaryLever@5a38ca10, com.ehr.model.SalaryLever@9d6e3ed], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@5fce53a8, com.ehr.model.SalaryLever@104e3c90, com.ehr.model.SalaryLever@c3a0cc3, com.ehr.model.SalaryLever@324d5f22, com.ehr.model.SalaryLever@1f3319d0], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@433270ca]
-1950410 DEBUG [2019-06-28 20:39:13]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950410 DEBUG [2019-06-28 20:39:13]  Successfully completed request
-1950410 DEBUG [2019-06-28 20:39:13]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950531 DEBUG [2019-06-28 20:39:14]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1950531 DEBUG [2019-06-28 20:39:14]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/favicon.ico]
-1950531 DEBUG [2019-06-28 20:39:14]  Matching patterns for request [/favicon.ico] are [/**/favicon.ico]
-1950531 DEBUG [2019-06-28 20:39:14]  URI Template variables for request [/favicon.ico] are {}
-1950531 DEBUG [2019-06-28 20:39:14]  Mapping [/favicon.ico] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@230abcab]]] and 1 interceptor
-1950531 DEBUG [2019-06-28 20:39:14]  Last-Modified value for [/favicon.ico] is: -1
-1950541 DEBUG [2019-06-28 20:39:14]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1950541 DEBUG [2019-06-28 20:39:14]  Successfully completed request
-1950541 DEBUG [2019-06-28 20:39:14]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1966726 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@821089b
-1966726 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/salarylever/salaryLeverUpdate]
-1966726 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /payroll/salarylever/salaryLeverUpdate
-1966726 DEBUG [2019-06-28 20:39:30]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SalaryLeverController.updateSalaryLever(java.lang.Integer,javax.servlet.http.HttpServletRequest)]
-1966726 DEBUG [2019-06-28 20:39:30]  Returning cached instance of singleton bean 'salaryLeverController'
-1966726 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/payroll/salarylever/salaryLeverUpdate] is: -1
-1966727 DEBUG [2019-06-28 20:39:30]  Fetching JDBC Connection from DataSource
-1966729 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1966729 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/loading-1.gif]
-1966729 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /lib/layui/css/modules/layer/default/loading-1.gif
-1966730 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/lib/layui/css/modules/layer/default/loading-1.gif]
-1966730 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/lib/layui/css/modules/layer/default/loading-1.gif] are [/**]
-1966730 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/lib/layui/css/modules/layer/default/loading-1.gif] are {}
-1966730 DEBUG [2019-06-28 20:39:30]  Mapping [/lib/layui/css/modules/layer/default/loading-1.gif] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1966730 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/lib/layui/css/modules/layer/default/loading-1.gif] is: -1
-1966730 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1966730 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/icon.png]
-1966730 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /lib/layui/css/modules/layer/default/icon.png
-1966730 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/lib/layui/css/modules/layer/default/icon.png]
-1966730 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/lib/layui/css/modules/layer/default/icon.png] are [/**]
-1966730 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/lib/layui/css/modules/layer/default/icon.png] are {}
-1966730 DEBUG [2019-06-28 20:39:30]  Mapping [/lib/layui/css/modules/layer/default/icon.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1966730 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/lib/layui/css/modules/layer/default/icon.png] is: -1
-1966738 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1966738 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1966738 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1966740 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1966740 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1966740 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1966745 DEBUG [2019-06-28 20:39:30]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
-1966746 DEBUG [2019-06-28 20:39:30]  No matching bean found for view name 'Payroll/salaryLever/salaryLeverUpdate'
-1966747 DEBUG [2019-06-28 20:39:30]  Invoking afterPropertiesSet() on bean with name 'Payroll/salaryLever/salaryLeverUpdate'
-1966747 DEBUG [2019-06-28 20:39:30]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
-1966747 DEBUG [2019-06-28 20:39:30]  Returning [org.springframework.web.servlet.view.InternalResourceView: name 'Payroll/salaryLever/salaryLeverUpdate'; URL [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp]] based on requested media type 'text/html'
-1966747 DEBUG [2019-06-28 20:39:30]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name 'Payroll/salaryLever/salaryLeverUpdate'; URL [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp]] in DispatcherServlet with name 'dispatcherServlet'
-1966747 DEBUG [2019-06-28 20:39:30]  Forwarding to resource [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp] in InternalResourceView 'Payroll/salaryLever/salaryLeverUpdate'
-1967200 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1967200 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@821089b
-1967288 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@821089b
-1967288 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/font.css]
-1967288 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /css/font.css
-1967289 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/css/font.css]
-1967289 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/css/font.css] are [/**]
-1967289 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/css/font.css] are {}
-1967289 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1967289 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967289 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/css/xadmin.css]
-1967289 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /css/xadmin.css
-1967289 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/css/xadmin.css]
-1967289 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/css/xadmin.css] are [/**]
-1967289 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/css/xadmin.css] are {}
-1967290 DEBUG [2019-06-28 20:39:30]  Mapping [/css/xadmin.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967290 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/css/xadmin.css] is: -1
-1967290 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4c100a47
-1967290 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/js/xadmin.js]
-1967290 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /js/xadmin.js
-1967289 DEBUG [2019-06-28 20:39:30]  Mapping [/css/font.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967290 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/css/font.css] is: -1
-1967290 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/js/xadmin.js]
-1967290 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/js/xadmin.js] are [/**]
-1967290 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/js/xadmin.js] are {}
-1967290 DEBUG [2019-06-28 20:39:30]  Mapping [/js/xadmin.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967290 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/js/xadmin.js] is: -1
-1967289 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/layui.js]
-1967291 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /lib/layui/layui.js
-1967291 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/lib/layui/layui.js]
-1967291 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/lib/layui/layui.js] are [/**]
-1967291 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/lib/layui/layui.js] are {}
-1967291 DEBUG [2019-06-28 20:39:30]  Mapping [/lib/layui/layui.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967296 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967296 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967295 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967299 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1967299 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1967299 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/lib/layui/layui.js] is: -1
-1967299 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@1cf71e7f
-1967299 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@821089b
-1967299 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1967299 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4c100a47
-1967304 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967304 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1967304 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967333 DEBUG [2019-06-28 20:39:30]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967333 DEBUG [2019-06-28 20:39:30]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/layui.css]
-1967333 DEBUG [2019-06-28 20:39:30]  Looking up handler method for path /lib/layui/css/layui.css
-1967333 DEBUG [2019-06-28 20:39:30]  Did not find handler method for [/lib/layui/css/layui.css]
-1967333 DEBUG [2019-06-28 20:39:30]  Matching patterns for request [/lib/layui/css/layui.css] are [/**]
-1967333 DEBUG [2019-06-28 20:39:30]  URI Template variables for request [/lib/layui/css/layui.css] are {}
-1967333 DEBUG [2019-06-28 20:39:30]  Mapping [/lib/layui/css/layui.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967333 DEBUG [2019-06-28 20:39:30]  Last-Modified value for [/lib/layui/css/layui.css] is: -1
-1967339 DEBUG [2019-06-28 20:39:30]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967339 DEBUG [2019-06-28 20:39:30]  Successfully completed request
-1967339 DEBUG [2019-06-28 20:39:30]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967662 DEBUG [2019-06-28 20:39:31]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967662 DEBUG [2019-06-28 20:39:31]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/form.js]
-1967662 DEBUG [2019-06-28 20:39:31]  Looking up handler method for path /lib/layui/lay/modules/form.js
-1967663 DEBUG [2019-06-28 20:39:31]  Did not find handler method for [/lib/layui/lay/modules/form.js]
-1967663 DEBUG [2019-06-28 20:39:31]  Matching patterns for request [/lib/layui/lay/modules/form.js] are [/**]
-1967663 DEBUG [2019-06-28 20:39:31]  URI Template variables for request [/lib/layui/lay/modules/form.js] are {}
-1967663 DEBUG [2019-06-28 20:39:31]  Mapping [/lib/layui/lay/modules/form.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967663 DEBUG [2019-06-28 20:39:31]  Last-Modified value for [/lib/layui/lay/modules/form.js] is: -1
-1967670 DEBUG [2019-06-28 20:39:31]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967671 DEBUG [2019-06-28 20:39:31]  Successfully completed request
-1967671 DEBUG [2019-06-28 20:39:31]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967690 DEBUG [2019-06-28 20:39:31]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967690 DEBUG [2019-06-28 20:39:31]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/layer.js]
-1967690 DEBUG [2019-06-28 20:39:31]  Looking up handler method for path /lib/layui/lay/modules/layer.js
-1967691 DEBUG [2019-06-28 20:39:31]  Did not find handler method for [/lib/layui/lay/modules/layer.js]
-1967691 DEBUG [2019-06-28 20:39:31]  Matching patterns for request [/lib/layui/lay/modules/layer.js] are [/**]
-1967691 DEBUG [2019-06-28 20:39:31]  URI Template variables for request [/lib/layui/lay/modules/layer.js] are {}
-1967691 DEBUG [2019-06-28 20:39:31]  Mapping [/lib/layui/lay/modules/layer.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967691 DEBUG [2019-06-28 20:39:31]  Last-Modified value for [/lib/layui/lay/modules/layer.js] is: -1
-1967694 DEBUG [2019-06-28 20:39:31]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967694 DEBUG [2019-06-28 20:39:31]  Successfully completed request
-1967694 DEBUG [2019-06-28 20:39:31]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967707 DEBUG [2019-06-28 20:39:31]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967707 DEBUG [2019-06-28 20:39:31]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/layer.css]
-1967707 DEBUG [2019-06-28 20:39:31]  Looking up handler method for path /lib/layui/css/modules/layer/default/layer.css
-1967708 DEBUG [2019-06-28 20:39:31]  Did not find handler method for [/lib/layui/css/modules/layer/default/layer.css]
-1967708 DEBUG [2019-06-28 20:39:31]  Matching patterns for request [/lib/layui/css/modules/layer/default/layer.css] are [/**]
-1967708 DEBUG [2019-06-28 20:39:31]  URI Template variables for request [/lib/layui/css/modules/layer/default/layer.css] are {}
-1967708 DEBUG [2019-06-28 20:39:31]  Mapping [/lib/layui/css/modules/layer/default/layer.css] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967708 DEBUG [2019-06-28 20:39:31]  Last-Modified value for [/lib/layui/css/modules/layer/default/layer.css] is: -1
-1967714 DEBUG [2019-06-28 20:39:31]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967714 DEBUG [2019-06-28 20:39:31]  Successfully completed request
-1967714 DEBUG [2019-06-28 20:39:31]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967715 DEBUG [2019-06-28 20:39:31]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1967715 DEBUG [2019-06-28 20:39:31]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/lay/modules/element.js]
-1967715 DEBUG [2019-06-28 20:39:31]  Looking up handler method for path /lib/layui/lay/modules/element.js
-1967715 DEBUG [2019-06-28 20:39:31]  Did not find handler method for [/lib/layui/lay/modules/element.js]
-1967716 DEBUG [2019-06-28 20:39:31]  Matching patterns for request [/lib/layui/lay/modules/element.js] are [/**]
-1967716 DEBUG [2019-06-28 20:39:31]  URI Template variables for request [/lib/layui/lay/modules/element.js] are {}
-1967716 DEBUG [2019-06-28 20:39:31]  Mapping [/lib/layui/lay/modules/element.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1967716 DEBUG [2019-06-28 20:39:31]  Last-Modified value for [/lib/layui/lay/modules/element.js] is: -1
-1967720 DEBUG [2019-06-28 20:39:31]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1967720 DEBUG [2019-06-28 20:39:31]  Successfully completed request
-1967720 DEBUG [2019-06-28 20:39:31]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1969666 DEBUG [2019-06-28 20:39:33]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1969667 DEBUG [2019-06-28 20:39:33]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylever/updateASalaryLever]
-1969667 DEBUG [2019-06-28 20:39:33]  Looking up handler method for path /payroll/salarylever/updateASalaryLever
-1969667 DEBUG [2019-06-28 20:39:33]  Returning handler method [public void com.ehr.controller.payroll.SalaryLeverController.updateASalaryLever(java.lang.Integer,java.lang.String,java.lang.Integer,java.lang.String)]
-1969667 DEBUG [2019-06-28 20:39:33]  Returning cached instance of singleton bean 'salaryLeverController'
-1969667 DEBUG [2019-06-28 20:39:33]  Skip CORS processing: request is from same origin
-1969668 DEBUG [2019-06-28 20:39:33]  Fetching JDBC Connection from DataSource
-1969675 DEBUG [2019-06-28 20:39:33]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@821089b
-1969675 DEBUG [2019-06-28 20:39:33]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/lib/layui/css/modules/layer/default/icon.png]
-1969675 DEBUG [2019-06-28 20:39:33]  Looking up handler method for path /lib/layui/css/modules/layer/default/icon.png
-1969676 DEBUG [2019-06-28 20:39:33]  Did not find handler method for [/lib/layui/css/modules/layer/default/icon.png]
-1969676 DEBUG [2019-06-28 20:39:33]  Matching patterns for request [/lib/layui/css/modules/layer/default/icon.png] are [/**]
-1969676 DEBUG [2019-06-28 20:39:33]  URI Template variables for request [/lib/layui/css/modules/layer/default/icon.png] are {}
-1969676 DEBUG [2019-06-28 20:39:33]  Mapping [/lib/layui/css/modules/layer/default/icon.png] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@401bff71]]] and 1 interceptor
-1969676 DEBUG [2019-06-28 20:39:33]  Last-Modified value for [/lib/layui/css/modules/layer/default/icon.png] is: -1
-1969678 DEBUG [2019-06-28 20:39:33]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1969678 DEBUG [2019-06-28 20:39:33]  Successfully completed request
-1969678 DEBUG [2019-06-28 20:39:33]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@821089b
-1969706 DEBUG [2019-06-28 20:39:33]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1969706 DEBUG [2019-06-28 20:39:33]  Successfully completed request
-1969706 DEBUG [2019-06-28 20:39:33]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1970521 DEBUG [2019-06-28 20:39:34]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1970522 DEBUG [2019-06-28 20:39:34]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylever/salaryLeverList]
-1970522 DEBUG [2019-06-28 20:39:34]  Looking up handler method for path /payroll/salarylever/salaryLeverList
-1970522 DEBUG [2019-06-28 20:39:34]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryLeverController.salaryLeverList(java.lang.Integer,java.lang.Integer)]
-1970522 DEBUG [2019-06-28 20:39:34]  Returning cached instance of singleton bean 'salaryLeverController'
-1970522 DEBUG [2019-06-28 20:39:34]  Skip CORS processing: request is from same origin
-1970523 DEBUG [2019-06-28 20:39:34]  Fetching JDBC Connection from DataSource
-1970531 DEBUG [2019-06-28 20:39:34]  Fetching JDBC Connection from DataSource
-1970536 DEBUG [2019-06-28 20:39:34]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@1556d989, com.ehr.model.SalaryLever@15c56d91, com.ehr.model.SalaryLever@71183c25, com.ehr.model.SalaryLever@1e23d306, com.ehr.model.SalaryLever@3d1adbda], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@38d800d, com.ehr.model.SalaryLever@33c47d4d, com.ehr.model.SalaryLever@337f23d0, com.ehr.model.SalaryLever@58d0ea6e, com.ehr.model.SalaryLever@37b28491], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@433270ca]
-1970537 DEBUG [2019-06-28 20:39:34]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1970537 DEBUG [2019-06-28 20:39:34]  Successfully completed request
-1970537 DEBUG [2019-06-28 20:39:34]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
-1982313 DEBUG [2019-06-28 20:39:45]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@47dbf42b
-1982313 DEBUG [2019-06-28 20:39:45]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylever/salaryLeverList]
-1982313 DEBUG [2019-06-28 20:39:45]  Looking up handler method for path /payroll/salarylever/salaryLeverList
-1982313 DEBUG [2019-06-28 20:39:45]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryLeverController.salaryLeverList(java.lang.Integer,java.lang.Integer)]
-1982313 DEBUG [2019-06-28 20:39:45]  Returning cached instance of singleton bean 'salaryLeverController'
-1982314 DEBUG [2019-06-28 20:39:45]  Skip CORS processing: request is from same origin
-1982315 DEBUG [2019-06-28 20:39:45]  Fetching JDBC Connection from DataSource
-1982319 DEBUG [2019-06-28 20:39:45]  Fetching JDBC Connection from DataSource
-1982329 DEBUG [2019-06-28 20:39:45]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@2e783675, com.ehr.model.SalaryLever@df58341, com.ehr.model.SalaryLever@1bf0608f, com.ehr.model.SalaryLever@59cb10fe, com.ehr.model.SalaryLever@36ef4e2c], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@17213c3b, com.ehr.model.SalaryLever@fcdc248, com.ehr.model.SalaryLever@e807faf, com.ehr.model.SalaryLever@42d2de7d, com.ehr.model.SalaryLever@5c8cf2f8], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@433270ca]
-1982330 DEBUG [2019-06-28 20:39:45]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
-1982330 DEBUG [2019-06-28 20:39:45]  Successfully completed request
-1982330 DEBUG [2019-06-28 20:39:45]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@47dbf42b
+11891 DEBUG [2019-06-28 20:46:30]  Looking for resource handler mappings
+11894 DEBUG [2019-06-28 20:46:30]  Returning cached instance of singleton bean 'faviconHandlerMapping'
+11895 DEBUG [2019-06-28 20:46:30]  Returning cached instance of singleton bean 'resourceHandlerMapping'
+11895 DEBUG [2019-06-28 20:46:30]  Found resource handler mapping: URL pattern="/**/favicon.ico", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/], class path resource []], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1766ea89]
+11895 DEBUG [2019-06-28 20:46:30]  Found resource handler mapping: URL pattern="/webjars/**", locations=[class path resource [META-INF/resources/webjars/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@17ddcf38]
+11900 DEBUG [2019-06-28 20:46:30]  Found resource handler mapping: URL pattern="/**", locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1a1aef6a]
+11963 DEBUG [2019-06-28 20:46:30]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+12439 INFO  [2019-06-28 20:46:31]  Tomcat started on port(s): 80 (http) with context path ''
+12442 DEBUG [2019-06-28 20:46:31]  Adding PropertySource 'server.ports' with highest search precedence
+12458 INFO  [2019-06-28 20:46:31]  Started RunApp in 12.433 seconds (JVM running for 13.428)
+12466 DEBUG [2019-06-28 20:46:31]  Returning cached instance of singleton bean 'conditionEvaluationDeltaLoggingListener'
+12466 DEBUG [2019-06-28 20:46:31]  Creating new Restarter for thread Thread[main,5,main]
+12466 DEBUG [2019-06-28 20:46:31]  Immediately restarting application
+12466 DEBUG [2019-06-28 20:46:31]  Created RestartClassLoader org.springframework.boot.devtools.restart.classloader.RestartClassLoader@a597f6a
+12466 DEBUG [2019-06-28 20:46:31]  Starting application com.ehr.RunApp with URLs [file:/D:/JEE_code/Java/ehrDemo%20-%20Copy/target/classes/]
+12468 DEBUG [2019-06-28 20:46:31]  Returning cached instance of singleton bean 'autoConfigurationReport'
+19523 DEBUG [2019-06-28 20:46:38]  Initializing servlet 'dispatcherServlet'
+19524 INFO  [2019-06-28 20:46:38]  FrameworkServlet 'dispatcherServlet': initialization started
+19524 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'multipartResolver'
+19524 DEBUG [2019-06-28 20:46:38]  Using MultipartResolver [org.springframework.web.multipart.support.StandardServletMultipartResolver@5d97eb08]
+19540 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+19548 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+19549 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver'
+19549 DEBUG [2019-06-28 20:46:38]  Unable to locate LocaleResolver with name 'localeResolver': using default [org.springframework.web.servlet.i18n.AcceptHeaderLocaleResolver@58155a17]
+19550 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+19556 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+19556 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.theme.FixedThemeResolver'
+19556 DEBUG [2019-06-28 20:46:38]  Unable to locate ThemeResolver with name 'themeResolver': using default [org.springframework.web.servlet.theme.FixedThemeResolver@220d0dd1]
+19556 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'faviconHandlerMapping'
+19556 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'requestMappingHandlerMapping'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'viewControllerHandlerMapping'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'beanNameHandlerMapping'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'resourceHandlerMapping'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'defaultServletHandlerMapping'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'welcomePageHandlerMapping'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'requestMappingHandlerAdapter'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'httpRequestHandlerAdapter'
+19557 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'simpleControllerHandlerAdapter'
+19558 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'errorAttributes'
+19558 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'handlerExceptionResolver'
+19559 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+19567 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+19567 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator'
+19567 DEBUG [2019-06-28 20:46:38]  Unable to locate RequestToViewNameTranslator with name 'viewNameTranslator': using default [org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1a7fc2b2]
+19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'beanNameViewResolver'
+19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'mvcViewResolver'
+19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'defaultViewResolver'
+19568 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'viewResolver'
+19569 DEBUG [2019-06-28 20:46:38]  Creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+19584 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+19584 DEBUG [2019-06-28 20:46:38]  Finished creating instance of bean 'org.springframework.web.servlet.support.SessionFlashMapManager'
+19584 DEBUG [2019-06-28 20:46:38]  Unable to locate FlashMapManager with name 'flashMapManager': using default [org.springframework.web.servlet.support.SessionFlashMapManager@5aa2b0ce]
+19584 DEBUG [2019-06-28 20:46:38]  Published WebApplicationContext of servlet 'dispatcherServlet' as ServletContext attribute with name [org.springframework.web.servlet.FrameworkServlet.CONTEXT.dispatcherServlet]
+19584 INFO  [2019-06-28 20:46:38]  FrameworkServlet 'dispatcherServlet': initialization completed in 60 ms
+19585 DEBUG [2019-06-28 20:46:38]  Servlet 'dispatcherServlet' configured successfully
+19756 DEBUG [2019-06-28 20:46:38]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@12f6dfee
+19758 DEBUG [2019-06-28 20:46:38]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company/companyList]
+19763 DEBUG [2019-06-28 20:46:38]  Looking up handler method for path /organization/company/companyList
+19766 DEBUG [2019-06-28 20:46:38]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.organization.company.CompanyController.companyList(java.lang.Integer,java.lang.Integer)]
+19766 DEBUG [2019-06-28 20:46:38]  Returning cached instance of singleton bean 'companyController'
+19767 DEBUG [2019-06-28 20:46:38]  Last-Modified value for [/organization/company/companyList] is: -1
+19912 DEBUG [2019-06-28 20:46:38]  Fetching JDBC Connection from DataSource
+21020 DEBUG [2019-06-28 20:46:40]  Fetching JDBC Connection from DataSource
+21429 DEBUG [2019-06-28 20:46:40]  Written [{code=0, data=[Company{id=1, name='隐世集团', address='武汉光谷软件园', mark='武汉500强公司其中之一2', logictodelete=1, createtime=Wed Apr 11 17:05:02 CST 2018}, Company{id=2, name='武汉创新有限公司', address='武汉光谷软件园', mark='武汉第一家进入500强的公司', logictodelete=1, createtime=Thu Apr 26 17:05:06 CST 2018}, Company{id=3, name='武汉德馨有限公司', address='武汉光谷软件园', mark='武汉一家实力公司', logictodelete=1, createtime=Fri Apr 27 17:05:09 CST 2018}, Company{id=4, name='武汉天意有限公司', address='武汉洪山区', mark='一家实力中上，门槛低的公司', logictodelete=1, createtime=Tue Apr 17 17:05:13 CST 2018}, Company{id=5, name='武汉哲天有限公司', address='武汉洪山区', mark='一家小公司，实力并不出众', logictodelete=1, createtime=null}, Company{id=6, name='宜昌金江银座股份有限公司', address='宜昌伍家区', mark='位于宜昌的一个大集团', logictodelete=1, createtime=null}, Company{id=7, name='宜昌瑞祥有限公司', address='宜昌伍家区', mark='宜昌制药业巨头', logictodelete=1, createtime=null}, Company{id=11, name='宝武钢铁有限公司', address='上海市浦东新区', mark='中国钢铁制造业巨头', logictodelete=0, createtime=null}, Company{id=13, name='碧桂园控股有限公司', address='广州佛山区', mark='中国目前最大的专业住宅开发区', logictodelete=0, createtime=null}, Company{id=14, name='中国保利集团', address='湖北武汉', mark='武汉500强公司其中之一', logictodelete=0, createtime=null}], count=10}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42756ff5]
+21430 DEBUG [2019-06-28 20:46:40]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+21430 DEBUG [2019-06-28 20:46:40]  Successfully completed request
+21431 DEBUG [2019-06-28 20:46:40]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@12f6dfee
+23948 DEBUG [2019-06-28 20:46:42]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@12f6dfee
+23949 DEBUG [2019-06-28 20:46:42]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company]
+23950 DEBUG [2019-06-28 20:46:42]  Looking up handler method for path /organization/company
+23959 DEBUG [2019-06-28 20:46:42]  Did not find handler method for [/organization/company]
+23959 DEBUG [2019-06-28 20:46:42]  Matching patterns for request [/organization/company] are [/**]
+23961 DEBUG [2019-06-28 20:46:42]  URI Template variables for request [/organization/company] are {}
+23963 DEBUG [2019-06-28 20:46:42]  Mapping [/organization/company] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1a1aef6a]]] and 1 interceptor
+23983 DEBUG [2019-06-28 20:46:42]  Last-Modified value for [/organization/company] is: -1
+24026 DEBUG [2019-06-28 20:46:43]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+24026 DEBUG [2019-06-28 20:46:43]  Successfully completed request
+24026 DEBUG [2019-06-28 20:46:43]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@12f6dfee
+24055 DEBUG [2019-06-28 20:46:43]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/error]
+24055 DEBUG [2019-06-28 20:46:43]  Looking up handler method for path /error
+24057 DEBUG [2019-06-28 20:46:43]  Returning handler method [public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)]
+24057 DEBUG [2019-06-28 20:46:43]  Returning cached instance of singleton bean 'basicErrorController'
+24057 DEBUG [2019-06-28 20:46:43]  Last-Modified value for [/error] is: -1
+24066 DEBUG [2019-06-28 20:46:43]  Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+24069 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
+24069 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
+24072 DEBUG [2019-06-28 20:46:43]  Found key 'spring.template.provider.cache' in PropertySource 'configurationProperties' with value of type String
+24077 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.prefix' in PropertySource 'configurationProperties' with value of type String
+24078 DEBUG [2019-06-28 20:46:43]  Found key 'spring.mvc.view.suffix' in PropertySource 'configurationProperties' with value of type String
+24086 DEBUG [2019-06-28 20:46:43]  Requested media types are [text/html, text/html;q=0.8] based on Accept header types and producible media types [text/html])
+24086 DEBUG [2019-06-28 20:46:43]  Returning cached instance of singleton bean 'error'
+24100 DEBUG [2019-06-28 20:46:43]  Invoking afterPropertiesSet() on bean with name 'error'
+24100 DEBUG [2019-06-28 20:46:43]  Returning [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@3b49871d] based on requested media type 'text/html'
+24100 DEBUG [2019-06-28 20:46:43]  Rendering view [org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$SpelView@3b49871d] in DispatcherServlet with name 'dispatcherServlet'
+24215 DEBUG [2019-06-28 20:46:43]  Successfully completed request
+29315 DEBUG [2019-06-28 20:46:48]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
+29315 DEBUG [2019-06-28 20:46:48]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company/]
+29315 DEBUG [2019-06-28 20:46:48]  Looking up handler method for path /organization/company/
+29315 DEBUG [2019-06-28 20:46:48]  Returning handler method [public java.lang.String com.ehr.controller.organization.company.CompanyController.company()]
+29316 DEBUG [2019-06-28 20:46:48]  Returning cached instance of singleton bean 'companyController'
+29316 DEBUG [2019-06-28 20:46:48]  Last-Modified value for [/organization/company/] is: -1
+29319 DEBUG [2019-06-28 20:46:48]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+29319 DEBUG [2019-06-28 20:46:48]  No matching bean found for view name '/organization/company/companyList'
+29320 DEBUG [2019-06-28 20:46:48]  Invoking afterPropertiesSet() on bean with name '/organization/company/companyList'
+29320 DEBUG [2019-06-28 20:46:48]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+29327 DEBUG [2019-06-28 20:46:48]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyList'; URL [/WEB-INF/View//organization/company/companyList.jsp]] based on requested media type 'text/html'
+29327 DEBUG [2019-06-28 20:46:48]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyList'; URL [/WEB-INF/View//organization/company/companyList.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+29330 DEBUG [2019-06-28 20:46:48]  Forwarding to resource [/WEB-INF/View//organization/company/companyList.jsp] in InternalResourceView '/organization/company/companyList'
+30780 DEBUG [2019-06-28 20:46:49]  Successfully completed request
+30780 DEBUG [2019-06-28 20:46:49]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
+30974 DEBUG [2019-06-28 20:46:49]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
+30974 DEBUG [2019-06-28 20:46:49]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/companyApi.js]
+30974 DEBUG [2019-06-28 20:46:49]  Looking up handler method for path /organization/companyApi.js
+30978 DEBUG [2019-06-28 20:46:49]  Did not find handler method for [/organization/companyApi.js]
+30978 DEBUG [2019-06-28 20:46:49]  Matching patterns for request [/organization/companyApi.js] are [/**]
+30978 DEBUG [2019-06-28 20:46:49]  URI Template variables for request [/organization/companyApi.js] are {}
+30978 DEBUG [2019-06-28 20:46:49]  Mapping [/organization/companyApi.js] to HandlerExecutionChain with handler [ResourceHttpRequestHandler [locations=[class path resource [META-INF/resources/], class path resource [resources/], class path resource [static/], class path resource [public/], ServletContext resource [/]], resolvers=[org.springframework.web.servlet.resource.PathResourceResolver@1a1aef6a]]] and 1 interceptor
+30978 DEBUG [2019-06-28 20:46:49]  Last-Modified value for [/organization/companyApi.js] is: -1
+31077 DEBUG [2019-06-28 20:46:50]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+31077 DEBUG [2019-06-28 20:46:50]  Successfully completed request
+31077 DEBUG [2019-06-28 20:46:50]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
+31252 DEBUG [2019-06-28 20:46:50]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
+31253 DEBUG [2019-06-28 20:46:50]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/organization/company/companyListPage]
+31253 DEBUG [2019-06-28 20:46:50]  Looking up handler method for path /organization/company/companyListPage
+31253 DEBUG [2019-06-28 20:46:50]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.organization.company.CompanyController.companyListPage(java.lang.Integer,java.lang.Integer)]
+31253 DEBUG [2019-06-28 20:46:50]  Returning cached instance of singleton bean 'companyController'
+31288 DEBUG [2019-06-28 20:46:50]  Skip CORS processing: request is from same origin
+31438 DEBUG [2019-06-28 20:46:50]  Fetching JDBC Connection from DataSource
+31447 DEBUG [2019-06-28 20:46:50]  Fetching JDBC Connection from DataSource
+31500 DEBUG [2019-06-28 20:46:50]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=10, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=10, pages=1, reasonable=false, pageSizeZero=false}[Company{id=1, name='隐世集团', address='武汉光谷软件园', mark='武汉500强公司其中之一2', logictodelete=1, createtime=Wed Apr 11 17:05:02 CST 2018}, Company{id=2, name='武汉创新有限公司', address='武汉光谷软件园', mark='武汉第一家进入500强的公司', logictodelete=1, createtime=Thu Apr 26 17:05:06 CST 2018}, Company{id=3, name='武汉德馨有限公司', address='武汉光谷软件园', mark='武汉一家实力公司', logictodelete=1, createtime=Fri Apr 27 17:05:09 CST 2018}, Company{id=4, name='武汉天意有限公司', address='武汉洪山区', mark='一家实力中上，门槛低的公司', logictodelete=1, createtime=Tue Apr 17 17:05:13 CST 2018}, Company{id=5, name='武汉哲天有限公司', address='武汉洪山区', mark='一家小公司，实力并不出众', logictodelete=1, createtime=null}, Company{id=6, name='宜昌金江银座股份有限公司', address='宜昌伍家区', mark='位于宜昌的一个大集团', logictodelete=1, createtime=null}, Company{id=7, name='宜昌瑞祥有限公司', address='宜昌伍家区', mark='宜昌制药业巨头', logictodelete=1, createtime=null}, Company{id=11, name='宝武钢铁有限公司', address='上海市浦东新区', mark='中国钢铁制造业巨头', logictodelete=0, createtime=null}, Company{id=13, name='碧桂园控股有限公司', address='广州佛山区', mark='中国目前最大的专业住宅开发区', logictodelete=0, createtime=null}, Company{id=14, name='中国保利集团', address='湖北武汉', mark='武汉500强公司其中之一', logictodelete=0, createtime=null}], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=10, startRow=1, endRow=10, total=10, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=10, pages=1, reasonable=false, pageSizeZero=false}[Company{id=1, name='隐世集团', address='武汉光谷软件园', mark='武汉500强公司其中之一2', logictodelete=1, createtime=Wed Apr 11 17:05:02 CST 2018}, Company{id=2, name='武汉创新有限公司', address='武汉光谷软件园', mark='武汉第一家进入500强的公司', logictodelete=1, createtime=Thu Apr 26 17:05:06 CST 2018}, Company{id=3, name='武汉德馨有限公司', address='武汉光谷软件园', mark='武汉一家实力公司', logictodelete=1, createtime=Fri Apr 27 17:05:09 CST 2018}, Company{id=4, name='武汉天意有限公司', address='武汉洪山区', mark='一家实力中上，门槛低的公司', logictodelete=1, createtime=Tue Apr 17 17:05:13 CST 2018}, Company{id=5, name='武汉哲天有限公司', address='武汉洪山区', mark='一家小公司，实力并不出众', logictodelete=1, createtime=null}, Company{id=6, name='宜昌金江银座股份有限公司', address='宜昌伍家区', mark='位于宜昌的一个大集团', logictodelete=1, createtime=null}, Company{id=7, name='宜昌瑞祥有限公司', address='宜昌伍家区', mark='宜昌制药业巨头', logictodelete=1, createtime=null}, Company{id=11, name='宝武钢铁有限公司', address='上海市浦东新区', mark='中国钢铁制造业巨头', logictodelete=0, createtime=null}, Company{id=13, name='碧桂园控股有限公司', address='广州佛山区', mark='中国目前最大的专业住宅开发区', logictodelete=0, createtime=null}, Company{id=14, name='中国保利集团', address='湖北武汉', mark='武汉500强公司其中之一', logictodelete=0, createtime=null}], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42756ff5]
+31502 DEBUG [2019-06-28 20:46:50]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+31502 DEBUG [2019-06-28 20:46:50]  Successfully completed request
+31502 DEBUG [2019-06-28 20:46:50]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
+36480 DEBUG [2019-06-28 20:46:55]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
+36483 DEBUG [2019-06-28 20:46:55]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/organization/company/companyUpdate]
+36484 DEBUG [2019-06-28 20:46:55]  Looking up handler method for path /organization/company/companyUpdate
+36484 DEBUG [2019-06-28 20:46:55]  Returning handler method [public java.lang.String com.ehr.controller.organization.company.CompanyController.companyUpdate(java.lang.Integer,javax.servlet.http.HttpServletRequest)]
+36484 DEBUG [2019-06-28 20:46:55]  Returning cached instance of singleton bean 'companyController'
+36484 DEBUG [2019-06-28 20:46:55]  Last-Modified value for [/organization/company/companyUpdate] is: -1
+36488 DEBUG [2019-06-28 20:46:55]  Fetching JDBC Connection from DataSource
+36491 DEBUG [2019-06-28 20:46:55]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+36491 DEBUG [2019-06-28 20:46:55]  No matching bean found for view name '/organization/company/companyUpdate'
+36491 DEBUG [2019-06-28 20:46:55]  Invoking afterPropertiesSet() on bean with name '/organization/company/companyUpdate'
+36491 DEBUG [2019-06-28 20:46:55]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+36491 DEBUG [2019-06-28 20:46:55]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyUpdate'; URL [/WEB-INF/View//organization/company/companyUpdate.jsp]] based on requested media type 'text/html'
+36491 DEBUG [2019-06-28 20:46:55]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/organization/company/companyUpdate'; URL [/WEB-INF/View//organization/company/companyUpdate.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+36492 DEBUG [2019-06-28 20:46:55]  Forwarding to resource [/WEB-INF/View//organization/company/companyUpdate.jsp] in InternalResourceView '/organization/company/companyUpdate'
+37003 DEBUG [2019-06-28 20:46:56]  Successfully completed request
+37004 DEBUG [2019-06-28 20:46:56]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
+52525 DEBUG [2019-06-28 20:47:11]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
+52526 DEBUG [2019-06-28 20:47:11]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/salarylever]
+52526 DEBUG [2019-06-28 20:47:11]  Looking up handler method for path /payroll/salarylever
+52526 DEBUG [2019-06-28 20:47:11]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SalaryLeverController.salaryLever()]
+52526 DEBUG [2019-06-28 20:47:11]  Returning cached instance of singleton bean 'salaryLeverController'
+52526 DEBUG [2019-06-28 20:47:11]  Last-Modified value for [/payroll/salarylever] is: -1
+52527 DEBUG [2019-06-28 20:47:11]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+52527 DEBUG [2019-06-28 20:47:11]  No matching bean found for view name '/Payroll/salaryLever/salaryLever'
+52527 DEBUG [2019-06-28 20:47:11]  Invoking afterPropertiesSet() on bean with name '/Payroll/salaryLever/salaryLever'
+52527 DEBUG [2019-06-28 20:47:11]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+52528 DEBUG [2019-06-28 20:47:11]  Returning [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/salaryLever/salaryLever'; URL [/WEB-INF/View//Payroll/salaryLever/salaryLever.jsp]] based on requested media type 'text/html'
+52528 DEBUG [2019-06-28 20:47:11]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name '/Payroll/salaryLever/salaryLever'; URL [/WEB-INF/View//Payroll/salaryLever/salaryLever.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+52528 DEBUG [2019-06-28 20:47:11]  Forwarding to resource [/WEB-INF/View//Payroll/salaryLever/salaryLever.jsp] in InternalResourceView '/Payroll/salaryLever/salaryLever'
+52980 DEBUG [2019-06-28 20:47:11]  Successfully completed request
+52980 DEBUG [2019-06-28 20:47:11]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
+53114 DEBUG [2019-06-28 20:47:12]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@4f0f3237
+53114 DEBUG [2019-06-28 20:47:12]  DispatcherServlet with name 'dispatcherServlet' processing POST request for [/payroll/salarylever/salaryLeverList]
+53114 DEBUG [2019-06-28 20:47:12]  Looking up handler method for path /payroll/salarylever/salaryLeverList
+53115 DEBUG [2019-06-28 20:47:12]  Returning handler method [public java.util.Map<java.lang.String, java.lang.Object> com.ehr.controller.payroll.SalaryLeverController.salaryLeverList(java.lang.Integer,java.lang.Integer)]
+53115 DEBUG [2019-06-28 20:47:12]  Returning cached instance of singleton bean 'salaryLeverController'
+53116 DEBUG [2019-06-28 20:47:12]  Skip CORS processing: request is from same origin
+53141 DEBUG [2019-06-28 20:47:12]  Fetching JDBC Connection from DataSource
+53145 DEBUG [2019-06-28 20:47:12]  Fetching JDBC Connection from DataSource
+53153 DEBUG [2019-06-28 20:47:12]  Written [{code=0, data=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@2a06642f, com.ehr.model.SalaryLever@5e3e6cd8, com.ehr.model.SalaryLever@3796c808, com.ehr.model.SalaryLever@20c3de98, com.ehr.model.SalaryLever@397de1b3], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}, count=PageInfo{pageNum=1, pageSize=10, size=5, startRow=1, endRow=5, total=5, pages=1, list=Page{count=true, pageNum=1, pageSize=10, startRow=0, endRow=10, total=5, pages=1, reasonable=false, pageSizeZero=false}[com.ehr.model.SalaryLever@140802e8, com.ehr.model.SalaryLever@15df4ee9, com.ehr.model.SalaryLever@2bd675d4, com.ehr.model.SalaryLever@7df06964, com.ehr.model.SalaryLever@293b2b70], prePage=0, nextPage=0, isFirstPage=true, isLastPage=true, hasPreviousPage=false, hasNextPage=false, navigatePages=8, navigateFirstPage=1, navigateLastPage=1, navigatepageNums=[1]}}] as "application/json" using [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter@42756ff5]
+53153 DEBUG [2019-06-28 20:47:12]  Null ModelAndView returned to DispatcherServlet with name 'dispatcherServlet': assuming HandlerAdapter completed request handling
+53153 DEBUG [2019-06-28 20:47:12]  Successfully completed request
+53153 DEBUG [2019-06-28 20:47:12]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@4f0f3237
+55278 DEBUG [2019-06-28 20:47:14]  Bound request context to thread: org.apache.catalina.connector.RequestFacade@12f6dfee
+55278 DEBUG [2019-06-28 20:47:14]  DispatcherServlet with name 'dispatcherServlet' processing GET request for [/payroll/salarylever/salaryLeverUpdate]
+55279 DEBUG [2019-06-28 20:47:14]  Looking up handler method for path /payroll/salarylever/salaryLeverUpdate
+55279 DEBUG [2019-06-28 20:47:14]  Returning handler method [public java.lang.String com.ehr.controller.payroll.SalaryLeverController.updateSalaryLever(java.lang.Integer,javax.servlet.http.HttpServletRequest)]
+55279 DEBUG [2019-06-28 20:47:14]  Returning cached instance of singleton bean 'salaryLeverController'
+55279 DEBUG [2019-06-28 20:47:14]  Last-Modified value for [/payroll/salarylever/salaryLeverUpdate] is: -1
+55280 DEBUG [2019-06-28 20:47:14]  Fetching JDBC Connection from DataSource
+55282 DEBUG [2019-06-28 20:47:14]  Requested media types are [text/html, application/xhtml+xml, image/webp, image/apng, application/signed-exchange;v=b3, application/xml;q=0.9, */*;q=0.8] based on Accept header types and producible media types [*/*])
+55283 DEBUG [2019-06-28 20:47:14]  No matching bean found for view name 'Payroll/salaryLever/salaryLeverUpdate'
+55283 DEBUG [2019-06-28 20:47:14]  Invoking afterPropertiesSet() on bean with name 'Payroll/salaryLever/salaryLeverUpdate'
+55283 DEBUG [2019-06-28 20:47:14]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+55283 DEBUG [2019-06-28 20:47:14]  Returning [org.springframework.web.servlet.view.InternalResourceView: name 'Payroll/salaryLever/salaryLeverUpdate'; URL [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp]] based on requested media type 'text/html'
+55283 DEBUG [2019-06-28 20:47:14]  Rendering view [org.springframework.web.servlet.view.InternalResourceView: name 'Payroll/salaryLever/salaryLeverUpdate'; URL [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp]] in DispatcherServlet with name 'dispatcherServlet'
+55283 DEBUG [2019-06-28 20:47:14]  Forwarding to resource [/WEB-INF/View/Payroll/salaryLever/salaryLeverUpdate.jsp] in InternalResourceView 'Payroll/salaryLever/salaryLeverUpdate'
+55792 DEBUG [2019-06-28 20:47:14]  Successfully completed request
+55792 DEBUG [2019-06-28 20:47:14]  Cleared thread-bound request context: org.apache.catalina.connector.RequestFacade@12f6dfee
