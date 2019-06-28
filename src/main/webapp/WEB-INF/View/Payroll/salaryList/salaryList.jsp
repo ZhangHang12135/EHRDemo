@@ -15,7 +15,7 @@
 
     <script type="text/javascript" src="/js/xadmin.js"></script>
     <script type="text/javascript" src="/lib/layui/layui.js" charset="utf-8"></script>
-	<script type="text/javascript" src="/payroll/salarylist/salarylist.js"></script>
+	<script type="text/javascript" src="/js/payroll/salarylist/salarylist.js"></script>
     <style>
         /*把table中的复选框居中*/
         .layui-table-view .layui-form-checkbox[lay-skin=primary] i{
