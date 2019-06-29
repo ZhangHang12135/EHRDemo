@@ -34,10 +34,10 @@ function reloadTable(){
 			id: "TableId",
 			cols: [[
 				{type: 'checkbox',fixed: 'left',},
-				{field: 'empName',title: '员工',width:"20%"},
-				{field: 'basicsalary',title: '基本工资',width:"20%"},
-				{field: 'subsidies',title: '补贴',width:'20%'},
-				{field: 'purchaseRate',title: '社保率',width:'20%'},
+				{field: 'empName',title: '员工',width:"22%"},
+				{field: 'basicsalary',title: '基本工资',width:"22%"},
+				{field: 'subsidies',title: '补贴',width:'22%'},
+				{field: 'purchaseRate',title: '社保率',width:'22%'},
 				{fixed: 'right',title: '操作', toolbar: '#barDemo',}
 			]],
 			page: true,

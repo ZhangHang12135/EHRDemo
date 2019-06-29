@@ -36,31 +36,22 @@
         <a href="/">首页</a>
         <a href="/payroll">薪资管理</a>
         <a href="/payroll/empsalary">
-          <cite>员工薪资表</cite></a>
+          <cite>员工薪资</cite></a>
       </span>
       <a class="layui-btn layui-btn-small" style="line-height:1.6em;margin-top:3px;float:right" href="javascript:reloadTable()" title="刷新">
         <i class="layui-icon layui-icon-refresh-1" style="line-height:30px"></i></a>
     </div>
     <div class="x-body">
-      <div class="layui-row">
-        <form class="layui-form layui-col-md12 x-so">
-          <input class="layui-input" placeholder="请输入员工姓名" id="someEmpName" >
-          <button class="layui-btn"  lay-submit id="likeSearchBtn" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
-            <button class="layui-btn" type="reset"><i class="layui-icon layui-icon-refresh-3"></i></button>
-        </form>
-      </div>
 
       <table class="layui-table" id="layTable" lay-filter="layTable">
           <script type="text/html" id="toolbarDemo">
               <div class="layui-btn-container">
                   <button class="layui-btn layui-btn-danger" onclick="delSome()"><i class="layui-icon"></i>批量删除</button>
-                  <button class="layui-btn" onclick="x_admin_show('添加用户','/payroll/empsalary/empsalaryAdd')"><i class="layui-icon"></i>添加</button>
               </div>
           </script>
 
           <script type="text/html" id="barDemo">
-              <a class="layui-btn layui-btn-xs" lay-event="edit">  <i class="layui-icon">&#xe642;</i></a>
-              <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"> <i class="layui-icon">&#xe640;</i></a>
+              <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"> <i class="layui-icon">&#xe640;</i>删除</a>
           </script>
       </table>
       <div class="page" id="page">

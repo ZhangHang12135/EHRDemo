@@ -46,10 +46,6 @@ public class EmpSalaryServiceImpl implements EmpSalaryService {
 	public List<EmpSalary> selectAll() {
 		// TODO Auto-generated method stub
 		List<EmpSalary> empSalaries = empSalaryDao.selectAll();
-//		empSalaries.forEach(empSalary->{
-//		empSalary.setEmpName(empDao.selectByPrimaryKey(empSalary.getEmpId()).getName());
-//		empSalary.setPurchaseRate(socialService.selectByPrimaryKey(empSalary.getSocialsecurityId()).getPurchaserate().toString()+"%");
-//		});
 		return empSalaries;
 	}
 
@@ -69,15 +65,6 @@ public class EmpSalaryServiceImpl implements EmpSalaryService {
 		  )); empSalary.setPurchaseRate(socialService.selectByPrimaryKey(empSalary.
 		  getSocialsecurityId()).getPurchaserate().toString()+"%"); });
 		 
-//		for (int i = 0; i < empSalaries.size(); i++) {
-//			EmpSalary empSalary = empSalaries.get(i);
-//			/*
-//			 * int id = empSalaries.get(i).getEmpId(); String nameString =
-//			 * empDao.selectByPrimaryKey(id).getName();
-//			 */
-//			System.err.println("============================");
-//			System.err.println(empSalary.toString());
-//		}
 		return new PageInfo<EmpSalary>(empSalaries);
 	}
 

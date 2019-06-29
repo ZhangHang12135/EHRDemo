@@ -50,7 +50,6 @@
           <script type="text/html" id="toolbarDemo">
               <div class="layui-btn-container">
                   <button class="layui-btn layui-btn-danger" onclick="delSome()"><i class="layui-icon"></i>批量删除</button>
-                  <button class="layui-btn layui-btn-info"><i class="layui-icon"></i>发送所有工资条</button>
               </div>
           </script>
 
