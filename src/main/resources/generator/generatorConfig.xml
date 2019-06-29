@@ -21,7 +21,7 @@
         <javaClientGenerator targetPackage="com.ehr.dao" targetProject="src/main/java"
                              type="XMLMAPPER"/>
        <!--自动生成的表 -->
-        <table tableName="ehr_articlewages" domainObjectName="SalaryList"  mapperName="SalaryListDao" >
+        <table tableName="ehr_compensation" domainObjectName="EmpSalary"  mapperName="EmpSalaryDao" >
             <!--mysql 配置-->
             <generatedKey column="id" sqlStatement="Mysql" identity="true"/>
         </table>
